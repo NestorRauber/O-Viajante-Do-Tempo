@@ -2181,6 +2181,53 @@ AgurdLimpe(5000)
 		}enquanto(barco<1 ou barco>2)
 		}
 
+		funcao deVolta(){
+			escreva("\"Finalmente!\"")
+AgurdLimpe(1500)
+
+escreva("Ao olhar seu relógio")
+AgurdLimpe(2000)
+
+escreva("Lucas percebe que conseguiu voltar para o seu tempo atual")
+AgurdLimpe(3000)
+
+escreva("No exato dia em que saiu dali")
+AgurdLimpe(2500)
+
+escreva("Ainda é manhã")
+AgurdLimpe(1500)
+
+escreva("05:32")
+AgurdLimpe(1500)
+
+escreva("Estando no mesmo lugar de onde partiu")
+AgurdLimpe(2500)
+
+escreva("O rapaz vai para casa")
+AgurdLimpe(2000)
+
+escreva("Chegando lá, toma um banho quente e vai pegar algo para comer")
+AgurdLimpe(3500)
+
+escreva("Por sorte, ainda tinha uma deliciosa fatia de torta de frango na geladeira")
+AgurdLimpe(4000)
+
+escreva("O rapaz então a esquenta e vai para o sofá")
+AgurdLimpe(3000)
+
+escreva("Agora relaxado, pois conseguiu sobreviver a tudo aquilo")
+AgurdLimpe(3500)
+
+escreva("Ele pega o controle remoto e liga a TV")
+AgurdLimpe(2500)
+		}
+
+		funcao noticia(){
+			
+			
+			
+			}
+
 	
 	
 	funcao AgurdLimpe (inteiro tempo){
