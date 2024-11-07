@@ -9,13 +9,25 @@ programa
 	inteiro trofeu = 0
 	inteiro mudancaEgito = 0
 	inteiro Salvador
+	inteiro farao
+	inteiro fuga = Util.sorteia(1, 3)
+	inteiro dinossauro
+	inteiro nordico
+	inteiro veneno
+	inteiro cha
+    inteiro enxerido = 0
+    inteiro casa
+	
+	
 	
 	
 
 	funcao inicio()
-	{ se(vida==1){
-     Introducao()
-    }
+	{ 
+		
+		se(vida==1){
+            Introducao()
+          }
 
 	  
     se(vida==1){
@@ -39,7 +51,10 @@ programa
     Titanic()
     }
 
-     
+    se(vida==1){
+    	deVolta()}
+
+    gameOver()
 	}
 	funcao Introducao (){
 		inteiro boaPessoa
@@ -222,7 +237,8 @@ programa
 	}
 
 	 funcao pre_historia(){
-	    	inteiro dinossauro, dente
+	    	 
+	    	inteiro dente
          
           
 	     escreva("[1] Correr\n")
@@ -342,7 +358,7 @@ programa
 	  }
 
 	  funcao egito(){
-      inteiro farao
+      
       inteiro congelados
 
 	  	escreva("Ele vai para um deserto. Egito antigo especificamente")
@@ -407,7 +423,7 @@ programa
         
           escolha(farao){
           	
-           caso 1: inteiro fuga = Util.sorteia(1, 3)
+           caso 1: 
 
            se(fuga!=1){
                  escreva("Ele decide fugir")
@@ -615,8 +631,8 @@ programa
 
 
      funcao vikins(){
-	inteiro nordico 
-	inteiro veneno
+	 
+	
 	inteiro velho
 
 	escreva("Avançando no tempo, agora Lucas se encontra em uma taverna")
@@ -1447,11 +1463,9 @@ morte()
 Renascimento(){
 		inteiro garota
 		inteiro teimosa
-		inteiro casa
-		inteiro cafeDaTarde
-    inteiro enxerido = 0
+	     inteiro cafeDaTarde
     inteiro mexer
-    inteiro cha
+    
 		
 		escreva("Estranhamente nesse período ele está no centro de uma cidade magnífica")
 AgurdLimpe(5000)
@@ -1709,6 +1723,8 @@ AgurdLimpe(4500)
 
 escreva("Mas é assassinado tempo depois devido suas obras")
 AgurdLimpe(5500)
+
+enxerido++
 
 vida=0
 morte()
@@ -2182,49 +2198,216 @@ AgurdLimpe(5000)
 		}
 
 		funcao deVolta(){
+			inteiro loop
 			escreva("\"Finalmente!\"")
-AgurdLimpe(1500)
+AgurdLimpe(2500)
 
 escreva("Ao olhar seu relógio")
-AgurdLimpe(2000)
+AgurdLimpe(3000)
 
 escreva("Lucas percebe que conseguiu voltar para o seu tempo atual")
-AgurdLimpe(3000)
-
-escreva("No exato dia em que saiu dali")
-AgurdLimpe(2500)
-
-escreva("Ainda é manhã")
-AgurdLimpe(1500)
-
-escreva("05:32")
-AgurdLimpe(1500)
-
-escreva("Estando no mesmo lugar de onde partiu")
-AgurdLimpe(2500)
-
-escreva("O rapaz vai para casa")
-AgurdLimpe(2000)
-
-escreva("Chegando lá, toma um banho quente e vai pegar algo para comer")
-AgurdLimpe(3500)
-
-escreva("Por sorte, ainda tinha uma deliciosa fatia de torta de frango na geladeira")
 AgurdLimpe(4000)
 
-escreva("O rapaz então a esquenta e vai para o sofá")
-AgurdLimpe(3000)
-
-escreva("Agora relaxado, pois conseguiu sobreviver a tudo aquilo")
+escreva("No exato dia em que saiu dali")
 AgurdLimpe(3500)
 
-escreva("Ele pega o controle remoto e liga a TV")
+escreva("Ainda é manhã")
 AgurdLimpe(2500)
+
+escreva("05:32")
+AgurdLimpe(2500)
+
+escreva("Estando no mesmo lugar de onde partiu")
+AgurdLimpe(3500)
+
+escreva("O rapaz vai para casa")
+AgurdLimpe(3000)
+
+escreva("Chegando lá, toma um banho quente e vai pegar algo para comer")
+AgurdLimpe(4500)
+
+escreva("Por sorte, ainda tinha uma deliciosa fatia de torta de frango na geladeira")
+AgurdLimpe(5000)
+
+escreva("O rapaz então a esquenta e vai para o sofá")
+AgurdLimpe(4000)
+
+escreva("Agora relaxado, pois conseguiu sobreviver a tudo aquilo")
+AgurdLimpe(4500)
+
+escreva("Ele pega o controle remoto e liga a TV")
+AgurdLimpe(3500)
+
+noticia()
+
+faca{escreva("Lucas deve agora concertas os erros temporais causados por ele?\n\n")
+escreva("[1] Sim\n")
+escreva("[2] Não\n\n")
+leia(loop)
+limpa()
+
+escolha(loop){
+
+			caso 1: escreva("Então ele coloca uma blusa para não ser reconhecido e parte para seu trabalho.")
+AgurdLimpe(5000)
+
+escreva("Determinado a encontrar Lucas do passado e avisar de seus futuros erros.")
+AgurdLimpe(5000)
+
+escreva("Lucas do futuro caminha depressa antes que seja tarde.")
+AgurdLimpe(4500)
+
+escreva("No caminho para seu trabalho, ele esbarra em um homem.")
+AgurdLimpe(5000)
+
+escreva("Mas, para não ter muita interação, ele segue reto, pois tem um propósito.")
+AgurdLimpe(5500)
+
+escreva("Quando chega ao seu escritório, se lembra que havia sido liberado mais cedo naquele dia.")
+AgurdLimpe(5500)
+
+escreva("Lucas do futuro se dá conta de que perdeu o relógio.")
+AgurdLimpe(5000)
+
+escreva("E que, na verdade, ele mesmo é quem entregou para sua versão do passado.")
+AgurdLimpe(5500)
+
+escreva("Agora não há nada que Lucas possa fazer, apenas viver sua vida a partir dali.")
+AgurdLimpe(6000)
+
+			pare
+			caso 2: escreva("\"Não!\"")
+AgurdLimpe(2500)
+
+escreva("\"O melhor que eu faço é não fazer nada\"")
+AgurdLimpe(3000)
+
+escreva("\"Vou apenas descansar\"")
+AgurdLimpe(3000)
+
+escreva("\"Eu mereço\"")
+AgurdLimpe(3500)
+
+			pare
+			caso contrario: escreva("Você chegou tão longe, não precisa desistir agora.")
+AgurdLimpe(5000)
+
+			pare
+		}
+    escreva("███████╗██╗███╗   ███╗    ██████╗ ███████╗         ██╗ ██████╗  ██████╗  ██████╗ \n")
+    escreva("██╔════╝██║████╗ ████║    ██╔══██╗██╔════╝         ██║██╔═══██╗██╔════╝ ██╔═══██╗\n")
+    escreva("█████╗  ██║██╔████╔██║    ██║  ██║█████╗           ██║██║   ██║██║  ███╗██║   ██║\n")
+    escreva("██╔══╝  ██║██║╚██╔╝██║    ██║  ██║██╔══╝      ██   ██║██║   ██║██║   ██║██║   ██║\n")
+    escreva("██║     ██║██║ ╚═╝ ██║    ██████╔╝███████╗    ╚█████╔╝╚██████╔╝╚██████╔╝╚██████╔╝\n")
+    escreva("╚═╝     ╚═╝╚═╝     ╚═╝    ╚═════╝ ╚══════╝     ╚════╝  ╚═════╝  ╚═════╝  ╚═════╝ \n")
+	
+	}enquanto(loop<1 ou loop>2)
+
 		}
 
 		funcao noticia(){
-			
-			
+			escreva("*ABERTURA DO JORNAL*")
+		     escreva("Está começando o Jornal Portugol")
+		     escreva("E as ultimas noticias do mundo até o momento você confere aqui...")
+			se(trofeu==1){
+				escreva("O esqueleto do dinossauro mais conhecido no mundo por faltar um de seus dente é transportado para outro museu.")
+AgurdLimpe(4000)
+
+escreva("Paleontólogos acreditam que a falta de sua presa está ligada ao mundo animal.")
+AgurdLimpe(4500)
+
+escreva("\"Muitos dos dinossauros são carnívoros\"")
+AgurdLimpe(4500)
+
+escreva("\"E não seria estranho um de seus dentes acabar ficando preso em seu alimento\"")
+AgurdLimpe(5000)
+
+				
+			}
+			se(farao==4){
+				escreva("Foi descoberto hoje um desenho no chão de estruturas egípcias.")
+AgurdLimpe(4000)
+
+escreva("O desenho que mais se parece um relógio de bolso foi encontrado por Josh Smith.")
+AgurdLimpe(4500)
+
+escreva("Os profissionais na área apontam uma possível alucinação dos antigos com o objeto moderno.")
+AgurdLimpe(5000)
+
+			}
+			se(mudancaEgito==1){
+				escreva("Novo sucesso de bilheteira tem nome: A Vingança do Faraó.")
+AgurdLimpe(4500)
+
+escreva("O novo filme, com mais de 3 milhões de dólares em bilheteira, foi inspirado nas artes egípcias encontradas tempos atrás.")
+AgurdLimpe(5000)
+
+escreva("Diretor diz ser apaixonado pela história antiga e quis repassar essa para o mundo através da arte cinematográfica.")
+AgurdLimpe(5500)
+
+			}
+			se(mudancaEgito==2){
+				escreva("Novo sucesso de bilheteira tem nome: A Vingança dos Guardas Egípcios.")
+AgurdLimpe(4500)
+
+escreva("O novo filme, com mais de 3 milhões de dólares em bilheteira, foi inspirado nas artes egípcias encontradas tempos atrás.")
+AgurdLimpe(5000)
+
+escreva("Diretor diz ser apaixonado pela história antiga e quis repassar essa para o mundo através da arte cinematográfica.")
+AgurdLimpe(5500)
+
+			}
+			se(mudancaEgito==4){
+				escreva("Novo sucesso de bilheteira tem nome: O Sumiço do Faraó.")
+AgurdLimpe(4500)
+
+escreva("O novo filme, com mais de 3 milhões de dólares em bilheteira, foi inspirado nas artes egípcias encontradas tempos atrás.")
+AgurdLimpe(5000)
+
+escreva("Diretor diz ser apaixonado pela história antiga e quis repassar essa para o mundo através da arte cinematográfica.")
+AgurdLimpe(5500)
+
+escreva("O filme faz referência ao sumiço de um dos faraós mais importantes para a História.")
+AgurdLimpe(5500)
+
+			}
+			se(nordico==3){
+				escreva("Entrevista com Emillie Sindel")
+AgurdLimpe(4000)
+
+escreva("A mulher conhecida por seu \"artefato valioso\" visita o nosso estúdio para responder algumas perguntas.")
+AgurdLimpe(4500)
+
+escreva("Me responde, Sindel, como esse dente pode ser poderoso?")
+AgurdLimpe(5000)
+
+escreva("Olha, de geração a geração, esse dente foi passado com a história de que revive uma fera antiga.")
+AgurdLimpe(5500)
+               }
+			se(casa==2 ou cha==2){
+				escreva("A pintora renacentista Aurora Leal finalmente tem seus quadros reconhecidos.")
+AgurdLimpe(4500)
+
+escreva("As obras que trazem sempre um homem chamado Lucas como uma pessoa horrível")
+AgurdLimpe(5000)
+
+escreva("Puderam finalmente chegar ao Museu do Louvre.")
+AgurdLimpe(4500)
+               }
+			se(Salvador==1){
+				escreva("Após quase 5 anos da tragédia de Nova York.")
+AgurdLimpe(4500)
+
+escreva("Sobreviventes ainda relatam o trauma do massacre.")
+AgurdLimpe(5000)
+
+escreva("O assassino tem ligação com a embarcação que chegou nos Estados Unidos em 1912.")
+AgurdLimpe(5000)
+
+escreva("Familiares dele estavam presentes no maior navio da época, o Titanic.")
+AgurdLimpe(5500)
+
+			}
 			
 			}
 
@@ -2252,11 +2435,118 @@ AgurdLimpe(2500)
 	
        }
 
+       funcao gameOver(){
+       	se(vida==0){
+       		cadeia enter
+		     faca{
+		        escreva("PRESSIONE ENTER PARA VER AS ESTATISTICAS. Se ouver...")
+		        leia(enter)
+		        limpa()
+		        se(enter!=""){
+			   limpa()
+			   escreva("Não é tão difil, apenas clique no Enter")
+			   AgurdLimpe(4000)
+		        }
+		        senao{
+		        	se(farao==1 e fuga>1 ou farao==2 ou farao==3){
+		        		escreva("*ABERTURA DO JORNAL*")
+AgurdLimpe(3500)
+
+escreva("Está começando o Jornal Portugol")
+AgurdLimpe(3000)
+
+escreva("E as últimas notícias do mundo até o momento você confere aqui...")
+AgurdLimpe(3500)
+
+escreva("Na manhã de hoje, artefato histórico é roubado do museu do Cairo")
+AgurdLimpe(4000)
+
+escreva("O objeto ficou conhecido por ser algo moderno encontrado junto aos tesouros do Egito Antigo")
+AgurdLimpe(4500)
+
+escreva("A polícia investiga o roubo, mas nenhum suspeito até o momento")
+AgurdLimpe(4000)
+
+		        	}
+		        	se(nordico==2){
+		        		escreva("\"Não são tempos bons...\"")
+AgurdLimpe(3500)
+
+escreva("\"O mundo é governado por um viking supremo...\"")
+AgurdLimpe(4000)
+
+escreva("\"Capaz de fazer tudo aquilo que ele quer...\"")
+AgurdLimpe(4000)
+
+escreva("\"Todos devem obedecer o mestre...\"")
+AgurdLimpe(4000)
+
+escreva("\"E quem for contra ele...\"")
+AgurdLimpe(3500)
+
+escreva("\"EI! VOCÊ AÍ!\"")
+AgurdLimpe(3000)
+
+escreva("\"Não, por favor! NÃO! EU NÃO FIZ NADA! POR FAVOR!\"")
+AgurdLimpe(5000)
+
+		          }
+		          se(cha==1 ou enxerido==4){
+		          	escreva("Com Aurora tendo todo o poder em suas mãos")
+AgurdLimpe(4500)
+
+escreva("Ela distorceu cada vez mais o tempo")
+AgurdLimpe(4500)
+
+escreva("No começo foi sem querer")
+AgurdLimpe(4000)
+
+escreva("Mas agora... Não é possível nem saber onde tudo começou")
+AgurdLimpe(5000)
+
+escreva("Aurora acredita que alguma hora tudo vai desaparecer com seus erros")
+AgurdLimpe(5000)
+
+escreva("Que quanto mais ela ferrar com a linha do tempo")
+AgurdLimpe(4500)
+
+escreva("Mais rápido o tudo deixa de existir...")
+AgurdLimpe(5000)
+
+		          	}
+		          se(enxerido<3 e enxerido!=0){
+		          	escreva("Logo após a morte de Lucas")
+AgurdLimpe(4500)
+
+escreva("A embarcação naufraga no fundo do mar")
+AgurdLimpe(4500)
+
+escreva("O coitado não teve muita sorte")
+AgurdLimpe(4000)
+
+escreva("Mas será mesmo esse o melhor final?")
+AgurdLimpe(4500)
+
+escreva("Pois o causador dos problemas havia se perdido com o navio")
+AgurdLimpe(5000)
+
+escreva("O relógio provavelmente foi parar no fundo do mar")
+AgurdLimpe(5000)
+
+escreva("Não haveria mais conflitos na linha do tempo")
+AgurdLimpe(4500)
+
+escreva("Ou haveria?...")
+AgurdLimpe(5000)
+
+		          }
+		        	
+		        	
+		        	}
+		     }enquanto(enter!="")
+       	}
+       }
+
        
-    //escreva("███████╗██╗███╗   ███╗    ██████╗ ███████╗         ██╗ ██████╗  ██████╗  ██████╗ \n")
-    //escreva("██╔════╝██║████╗ ████║    ██╔══██╗██╔════╝         ██║██╔═══██╗██╔════╝ ██╔═══██╗\n")
-    //escreva("█████╗  ██║██╔████╔██║    ██║  ██║█████╗           ██║██║   ██║██║  ███╗██║   ██║\n")
-    //escreva("██╔══╝  ██║██║╚██╔╝██║    ██║  ██║██╔══╝      ██   ██║██║   ██║██║   ██║██║   ██║\n")
-    //escreva("██║     ██║██║ ╚═╝ ██║    ██████╔╝███████╗    ╚█████╔╝╚██████╔╝╚██████╔╝╚██████╔╝\n")
-    //escreva("╚═╝     ╚═╝╚═╝     ╚═╝    ╚═════╝ ╚══════╝     ╚════╝  ╚═════╝  ╚═════╝  ╚═════╝ \n")
+    
 }
