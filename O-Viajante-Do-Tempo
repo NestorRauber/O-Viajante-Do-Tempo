@@ -17,6 +17,7 @@ programa
 	inteiro cha
     inteiro enxerido = 0
     inteiro casa
+    cadeia enter
 	
 	
 	
@@ -24,6 +25,8 @@ programa
 
 	funcao inicio()
 	{ 
+
+		Enter()
 		
 		se(vida==1){
             Introducao()
@@ -77,6 +80,31 @@ programa
 	AgurdLimpe(4900)
 	escreva("Olhando para o chão, ele percebe que o rapaz havia deixado seu relógio de bolso cair")
 	AgurdLimpe(4900)
+
+escreva("                          ++      ++                        \n")
+escreva("                        ++          ++                      \n")
+escreva("                            ++++++                          \n")
+escreva("                          ++------++                        \n")
+escreva("                              ++                            \n")
+escreva("                          ----------                        \n")
+escreva("                      ----..      ------                    \n")
+escreva("                    --        --        --                  \n")
+escreva("                  --    --    --    --    --                \n")
+escreva("                ----      --      --      ----              \n")
+escreva("                --  --                  --  --              \n")
+escreva("              ----                ##        ----            \n")
+escreva("              --                ##            --            \n")
+escreva("              --  ----        --        ----  --            \n")
+escreva("              --                            ----            \n")
+escreva("                --    --              --    --              \n")
+escreva("                --  ..                  --  --              \n")
+escreva("                --..                      ----              \n")
+escreva("                  ----  --    --    --  ----                \n")
+escreva("                    ----      --      ----                  \n")
+escreva("                      ------------------                    \n")
+escreva("                            ----::                          \n")
+AgurdLimpe(5000)
+	
 	escreva("Mas já era tarde para ir atras do homem, pois ele havia sumido")
 	AgurdLimpe(4600)
 	escreva("O relógio era encantador. Parecia ser muito antigo, uma relíquia desconhecida")
@@ -406,6 +434,63 @@ programa
        escreva("Lucas é jogado na frente do faraó")
       AgurdLimpe(3900)
 
+      escreva("\n")
+        escreva("                                                      ----::::::--..\n")
+        escreva("                                            ++####      --MMMMMM..    ..####..\n")
+        escreva("                                    mm##--..  @@MMMMMMMMMMMMMMMMMMMMMMMMMM##  ..--##--\n")
+        escreva("                                ++  ............MMMMMMMMMMMMMMMMMMMMMMMMMM  ............MM\n")
+        escreva("                              ##................##MMMMMMMMMMMMMMMMMMMMMM++..............--..\n")
+        escreva("                              ::MM................MMMMMMMMMMMMMMMMMM@@MM................##mm\n")
+        escreva("                                ##............::..@@@@@@@@@@MM@@@@@@@@@@--++..........--@@MM\n")
+        escreva("                            ..  @@mm........::++..@@@@@@@@@@@@@@@@@@MM--::++--........##MM..\n")
+        escreva("                            mm..MM##------++++++++..MM@@@@@@@@@@@@@@@@--++++++::----++@@MM\n")
+        escreva("                            MM::MM@@MM++++++++++++--@@@@@@@@@@@@@@@@MM++++++++++++++##@@MM  mm\n")
+        escreva("                            ..MMMM@@##++++++++++++++@@@@@@@@@@@@@@@@::++++++++++++++@@@@MM--MM\n")
+        escreva("                          mm  MM@@@@@@++++++++++++++mm@@@@@@@@@@@@@@--++++++++++++##@@@@@@MM..\n")
+        escreva("                          ##@@@@@@######++++++++++++MM##############mm++++++++++++######@@@@MMMM\n")
+        escreva("                          --......++++@@++++++####@@@@@@MMMMMMMMMM@@@@@@####++++++mm++::....  ##\n")
+        escreva("                        ::  ......++++++++##MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM@@##mm++++::......--\n")
+        escreva("                        ##  ....--++++++@@MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##++++++......  MM\n")
+        escreva("                        ::....--++++++++##MMMM@@@@@@##################@@@@MMMM@@##++++++++--..  ##\n")
+        escreva("                      ::  ..--++++++++++##@@####++++--..............--++++####@@++++++++++++--..\n")
+        escreva("                      ##@@@@MMMM@@@@@@@@@@++----@@@@::..............++@@@@..--@@@@@@@@@@@@MMMM@@--MM\n")
+        escreva("                      ::MMMMMMMMMM@@@@@@##mm--MM..++######....--####@@::::MM..####@@@@@@MMMMMMMMMM##\n")
+        escreva("                    mm--MMMMMMMMMM@@@@MM::##++@@######mm++--..++++MM######mm++@@::##@@@@MMMMMMMMMM  ..\n")
+        escreva("                    @@MMMMMMMM@@@@@@@@@@@@@@::....::####MM--..MM######......++++--##@@@@@@@@MMMMMMMM##\n")
+        escreva("                  ++MM##################::++++............--..::............MM++..##################@@\n")
+        escreva("                  ##................::::##::mm............--..--............##::MM::--................@@\n")
+        escreva("                ::......................::@@@@............::..@@..........::##++......................++\n")
+        escreva("                ##........................++##::........--::..@@##........++mm::........................##\n")
+        escreva("              ##......................--::++mm::......--@@++..####........MM++++::--....................  ::\n")
+        escreva("            MM      ..--++mmmmMMMM@@@@########@@........::++MM::--........##########@@MMMMMMmm++::....      --\n")
+        escreva("          mm@@++@@@@@@MMMMMMMMMMMMMMMMMM@@@@@@##++....--::::--::::--....@@@@@@@@MMMMMMMMMMMMMMMMMMMM@@@@mm++##\n")
+        escreva("              ##    MMMMMMMMMMMMMMMMMMMMMM@@@@@@##--................--mm##@@@@MMMMMMMMMMMMMMMMMMMMMMMM    ##\n")
+        escreva("                --@@  ..MMMMMMMMMMMMMMMMMMMM@@@@####................++####@@@@MMMMMMMMMMMMMMMMMMMM    ##\n")
+        escreva("                    ##    mmMMMMMMMMMMMMMMMM@@@@######--..........::##MM##@@@@MMMMMMMMMMMMMMMM--  ::MM\n")
+        escreva("                      @@--  --MMMM@@@@@@@@@@@@@@##++MM##mm------mm##++mm##@@@@@@@@@@@@@@MMMM    ##..\n")
+        escreva("                          ##########++++MM++++++##++++mmMMMMMMMM##++++mm++++++++MM++MM##########\n")
+        escreva("                            ##  ............::++@@mm++@@MMMMMMMM##mm++@@++++--..........  ..MM\n")
+        escreva("                              ##  ............++++++++@@MMMMMMMM@@mm++@@++++............  mm\n")
+        escreva("                                ##..........--++++mm--############mm..##++++--........  ##\n")
+        escreva("                                --######@@@@MM++++mm::##..........mm..##++++MM@@########\n")
+        escreva("                                  ##MMMMMMMMMM@@@@mm::##..........@@--##@@@@MMMMMMMM::##\n")
+        escreva("                                  ##::MMMMMMMMMM@@##mm##::::++::::##MM##@@MMMMMMMMMM  ::\n")
+        escreva("                                  ::..MMMMMMMM@@@@mmmm##MMMMMMMMMM##::##@@MMMMMMMMMM++\n")
+        escreva("                                    ++MMMMMMMM@@@@mm++##MMMMMMMMMM##::##@@@@MMMMMMMM##\n")
+        escreva("                                    ##############mm++##MMMMMMMMMM##::################\n")
+        escreva("                                    ##........::++mm++##@@@@@@@@@@##::##++::........++\n")
+        escreva("                                    MM..........MMmm++++..........##++@@++........::..\n")
+        escreva("                                    ++..........##++mm--..........@@++@@++........@@\n")
+        escreva("                                    ..++........##++MM............MM++mm++........@@\n")
+        escreva("                                      @@::......##::MMmmMMMMMMMMMMMM++mmmm......++##\n")
+        escreva("                                      ##MM########--MMMMMMMMMMMMMMMM++++######@@MM##\n")
+        escreva("                                      ##MMMMMM@@##--MMMMMMMMMMMMMMMM++::##MMMMMM@@@@\n")
+        escreva("                                      ##MMMMMM@@##..@@MMMMMMMMMMMMMM++--##@@MMMM@@::\n")
+        escreva("                                      ##@@MMMM@@##..mm####@@@@####@@::--##@@MM@@@@--\n")
+        escreva("                                        @@@@@@@@::----------..----------##@@@@##MM\n")
+        escreva("                                            ##@@                          ####\n")
+        AgurdLimpe(5000)
+
        escreva("O faraó questiona Lucas")
       AgurdLimpe(3700)
 
@@ -645,6 +730,60 @@ programa
 
 	escreva("O sobrevivente acabava esbarrando em um homem forte")
 	AgurdLimpe(5000)
+
+	
+    escreva("                                                  @@\n")
+    escreva("                                                ..++\n")
+    escreva("                                                ##  MM\n")
+    escreva("                                                ##  ----              ##MM##--\n")
+    escreva("                                                ##    ++..          mm::    --                  mmmm\n")
+    escreva("                                                @@      --MMMM  @@--  ..    ##@@              MM..MM\n")
+    escreva("                                                  ::          ##    ..      ##  ##          ##    MM\n")
+    escreva("                                                  ##    ::....  ..--::      ::    ++@@..##mm      --\n")
+    escreva("                                                    ####  ....----::##        ::      ++        ##\n")
+    escreva("                                                      ++..MM--------@@      --::::  ..  mm    ----\n")
+    escreva("                                                      ++##@@@@@@MM++--..  --::--::--....##  mm--\n")
+    escreva("                                                    ++  ..  ..            ++##mm::::@@----##\n")
+    escreva("                                                    @@  --::##@@##..--..--....  ..@@@@@@MM\n")
+    escreva("                                                    ##@@mm##::::MM##@@mm::..mm++----..  @@\n")
+    escreva("                                                    mmmm  --::..      ..--::++mmmmMM..  ##\n")
+    escreva("                                              @@::--::MM        ..      ....mm####mm##++@@..@@\n")
+    escreva("                                            mm    ##++MM    ......    ::......--....::++##    ##\n")
+    escreva("                                            mm..--##++MM    MM  ##  ++::::--##..mm....mm@@::..##\n")
+    escreva("                                      ++::  ..--mm@@++mm      ..  ##mmmmMM@@..  ......mmmmMM..++\n")
+    escreva("                                      @@MM    ##mm##++++        mm++      ++::......##mmMM##mm      ::::\n")
+    escreva("                                              ####::++::##    @@##::::::::::##@@..--MMmmmmmm##      ++  ##\n")
+    escreva("                      mm    ##@@--@@++    mm@@##++++++##    ##  ++##mmmmMM##++  ##--..@@++++mm@@##    ##..######@@    ##\n")
+    escreva("                    ##                ####++##::::++@@    ##::++mmmmMM@@mmmmmmmm::##..MMmmmmmmmmMM@@--@@                ##\n")
+    escreva("                    ##                  MM##@@mm++++mm  ..--mmmmmm##++..++##mmmmmm::--..@@mmmm@@@@@@##                  MM\n")
+    escreva("                    --                      --++++++##  ##++mmMM##MM::..--++##MMmmmm##mmMMmm++mm++                      ++\n")
+    escreva("                  ##                          ##++mmmm####++MM##################mmmm##mmmmmmmm##                          ##\n")
+    escreva("                  ..                          @@++mm++++##mm######mm++++::####@@##MM@@MMmmmmmmMM                          ..\n")
+    escreva("                ++                            ##mm++++::++####++::mmMM@@MM++::::####mmmmmmmm++##                            ::\n")
+    escreva("              ++  ..                          ::++++++++mmMM####::::++++::++MMMM##MMMMmmmmmmmmmm                            ..++\n")
+    escreva("              MM              ..                mm##MM++mm++mmmmmm########@@++++MMmmmmmmmm@@##                  ..            MM\n")
+    escreva("              @@    ......          ..          ..::mm@@++++++++++mm++++++++mmmmmmmmMM##++++::                                @@\n")
+    escreva("              ----                      ##MM::##--++mm##@@++++++++++++mmmmmmmmmmmmmm@@##++++..##----MM                        ++\n")
+    escreva("                MM      ..          ::##mmMMMM##++::@@MM..MM++++++++++mmmmmmmmmmmmMM..MMMMmmMM##MMMMMM##                    ##\n")
+    escreva("                @@      @@@@##########MMmmMMMMmm....++++..##++++++++++mmmmmmmmmmmm@@..++mm....MMMMMMmm@@####MMMM####MM      ##\n")
+    escreva("                ::  --####@@@@####@@mmmm++MMMMMM++..##mm--##++++++++++mmmmmmmmmm++##--mm@@..++MMMMMMmmmmMM@@######@@####mm  ++\n")
+    escreva("                ..      ##@@@@##@@++++++++MMMMmm##mm++mmMMmm++++++++++mmmmmmmmmmmm@@@@++@@####MMMMMM++++++mm##@@@@@@##                      \n")
+    escreva("              --        ##MMMMMMMMmm++++++mmMMMMMM....MM##::++++++++++mmmmmmmmmmmmmm##@@....@@MMmmmm++++++mmMMmmMM@@##                      \n")
+    escreva("              ++        MMMMmmMMMMMM++mm++++MMmmMM::..##mm++++++++++++mmmmmmmmmmmmmmMM##..::MMMMMM++++++++mmMMMMMMMM@@        MM            \n")
+    escreva("              ##        ..MMmmMMMMMM++mm++++MMMMmm##mm##++::++++++++++mmmmmmmmmmmm++++@@##@@MMMMMM++++++++MMMMMMMMMM..        @@            \n")
+    escreva("              mm          @@mmMMMMMMmmmm++++mmMMMM@@....mm++++++++++++mmmmmmmmmmmmmmmm....##MMmmMM++++++++MMMMMMMMMM          MM            \n")
+    escreva("              ++          @@MMMMMMMMmm++++++mmMMMMMM....mm##++++++++::mmmmmmmmmmmm@@mm..--MMMMMMmmmm++++mmMMMMMMMM##          --            \n")
+    escreva("              ..          mmMMMMMMMMmm++++++++mmMMMM##@@mm##++++++++++mmmmmmmmmmmm##++##MMMMMMMM++++++++mmMMMMMMmmmm          ..            \n")
+    escreva("                          ::MMMMMMMMMM++++mm++mmmmMM##++mmMM++++++++++mmmmmmmmmmmmMMmm++##MMMMMMmm++++mmmmMMMMMMMM..                        \n")
+    escreva("              ++          MMmmMMMMMMMM++mm++mmmmMMMM@@MM##MM++++++++++mmmmmmmmmm++@@@@mmMMMMMMMM++mm++++MMMMMMmmMM@@          --            \n")
+    escreva("              mm          MMMMMMMMMM@@++              mm::++++++++++++mmmmmmmmmmMM++mmMM          ..++mmmmMMMMMMMM##          MM            \n")
+    escreva("                mm++..@@##MMMM..            ..........@@@@++mm++++++++mmmmmm++++mmMM####  ....                ++MMMM##::  ..@@              \n")
+    escreva("                    ##++        ..++mm++              ::mm@@##mm++++++mm++++++####MMMM--          ..++mm::::        ..mm##                  \n")
+    escreva("                    ##    mm++--                  ++@@MMMMMMMM@@@@++++++++mm##MMMMMMMMMM@@..              ....::mm--    mm                  \n")
+    escreva("                    ##@@....  ..          ..@@mm++++mmMMMMMMMMMMMM##mmmm##@@MMMMMMMMMMMMmm++mm@@::            ..    --MMmm                  \n")
+    escreva("                    ----  ..  ::MM##mm        ##@@++++++++mmMMMMMMMMMM@@MMMMMMMMmmmm++++++mm##        ++##++--..  ..    ++                  \n")
+    AgurdLimpe(5000)
+
 
 	escreva("Surpreendentemente o relógio havia feito um \"upgrade\"")
 	AgurdLimpe(5000)
@@ -2022,6 +2161,54 @@ AgurdLimpe(5000)
 		escreva("Agora o viajante se encontra em uma embarcação")
 AgurdLimpe(4000)
 
+    escreva("                                                                        MM##########                              ..    MM..\n")
+    escreva("                                                                      ##@@##########                                  ..##  ..\n")
+    escreva("                                                        MM            @@@@##########                              ++    ##\n")
+    escreva("                                                                      ##@@##########                          ..      ..@@  ..\n")
+    escreva("                                                                      --@@@@..++MM##..                          ::    ::mm    ..\n")
+    escreva("                                                                            --mmMM  @@                            ....++mm\n")
+    escreva("                                                                          ..--++MM..##                        ::      ++mm::  --\n")
+    escreva("                                                    ##########            ::--::##MM@@  ..              ..      ::    ++mm++  ::..\n")
+    escreva("                                          ..      @@##########            ++::..++##MM                      --        --mmmm\n")
+    escreva("                                                  @@##########      ..    --....::@@MM                        ::  ..    MM..    ..\n")
+    escreva("                              MM--##              ##@@--++MM@@            ......::MM@@                      ..          ##      ::    ..\n")
+    escreva("                                          ####    MM  ..MMMM##..        MM..--::++MM##..  ..                ::          ##        ..\n")
+    escreva("                      --              MM######MM  --    ++MMmm::        ##++....++MMmm++        ..        --            ++  ..      --  --\n")
+    escreva("                      --              mm####  ##      @@--MM--##      ..  ::....++MM  ##..            --  ::    ..      ....--    ::\n")
+    escreva("                      MM              ++##@@####      ....++++@@--      mm..--++++##++##..@@--++      ..--                mm          ::  --\n")
+    escreva("                      --        ..    ::::::MMMM    MM--..++##MM            ++++..    ..  ::--      ..  ++            --    ..\n")
+    escreva("                  MM@@##@@@@########  mm::::MMMM    ..::::MM##::  ++--      @@  --    --  mmmm  MM  --    ..  ##      ..    MM          ..\n")
+    escreva("                      ..    @@####@@  MM::::mmMM    MM++::                                ::          mm  ++####            ##      --        mm##\n")
+    escreva("                      ..++  @@##@@##  --  --++MM  ..::++--                ::@@######@@MMMMmmMM@@####@@--                ++##  --          ##  --##\n")
+    escreva("                      ..    mm..  mm--    --++++    MM++++++mm@@########@@@@++mmmm++++##::@@--++##########              ++mm            ..MM\n")
+    escreva("                        ----mmMMmmMMMM  ::::++mm  ..##mmMMmmMM##MMMM########++                          MM##            ++mm          @@  ..    @@\n")
+    escreva("                    ..  @@  ..--..MMMM    ::++@@  ##  ::##                          ++          ++mm    ------------::    mm    ##        ++\n")
+    escreva("                        ##  MM....MMMM      ++mm    MM  MM######          ::####@@mm++++++++++++MM++++++++mm####::----  @@..              @@##@@\n")
+    escreva("                        ##    ::++MM##::::      ##  ##@@++####    --####@@@@####++++@@--mm++##MMMMMMMMMMmm####@@@@      @@          ########++mm\n")
+    escreva("                  ..    ##  --  ++  --##  @@@@  ##  ++mm++      ::@@####::            ##::  MM##mm##..##      ##  ##      ..################  mm--\n")
+    escreva("                        ##..++----##  ....  @@mm++::      @@######--                @@####@@##--  ..####::        ##########################  --\n")
+    escreva("                        ##    --  ::  mmMMMM++@@      ##++  MM    ..  ::@@############      ..##        ++##############@@--################--::\n")
+    escreva("                    ::--  MM  ##  ..++++++--    ##@@    MM      ##############    ::    ..    ..######################@@##::##################@@mm\n")
+    escreva("                    ##::  MM  ##++++MM    ..##++  mm        ##++##  ++++++MM++        @@################################::::--##############MM####\n")
+    escreva("                ++##--  ..##mm....    ####  ::            ++        ##mm####################################@@##############++++############::##MM\n")
+    escreva("              --##  ##::mm@@    ####::--            ::        @@++++++######################@@####MMMM######################################++mm\n")
+    escreva("            --  ####@@    MMmm::::      ....  --        ##MM++++@@############@@##########MM################################################MM\n")
+    escreva("              ##    @@++..++        --::        ..@@##MM++MM############################################################################@@##\n")
+    escreva("            ::##::##::      ++++          ##++++++++####################################################################################MM##\n")
+    escreva("            MMmm  --++..        mm@@++++++++############################################################################################MMmm\n")
+    escreva("            ##..      @@MM++++++++########################@@####################################################################MMmm####MM++\n")
+    escreva("            mmmm++mm@@##@@####################mmMM######################################################################################MM++\n")
+    escreva("            --##################MM++########################################################..##############@@##########################MM++\n")
+    escreva("              ########################################################################            @@######################################MM\n")
+    escreva("                ########################################################@@############  ....@@@@@@@@::@@####@@##################@@##########\n")
+    escreva("                ####################################MMmm@@########################    ....@@@@@@@@@@@@@@  ##@@##################@@##########\n")
+    escreva("                  ##############################################@@##########      ....++@@++@@@@@@@@@@@@..##++##################@@##########\n")
+    escreva("                    ##    ################################################        ..@@mm++mm@@@@MM@@@@@@@@++....@@##############@@##########\n")
+    escreva("                ++  ++      ##  ##  ####################@@############MM    ##@@++@@++mm++++++++MM@@@@@@@@----        --MM######@@##########++\n")
+    escreva("  ............    ++MM++MM##++++++++++..MM@@MM@@########@@##          --##############++++++++::--::@@mm::@@..      ..    ######@@##########++++    ..........\n")
+    escreva("  ..............--++mm++++++::::::::::::::::::----@@--  --MM::    ..::::------::++++++++++++++++++::::::::++++++++::++mmmmmmMMMMMMMMMMMM@@@@MMMMMMMMMMMMmmmmmm--\n")
+    AgurdLimpe(5000)
+
 escreva("Antes de tudo, confere a data em seu relógio")
 AgurdLimpe(4500)
 
@@ -2093,49 +2280,49 @@ escreva("Nada poderia afundar o navio")
 AgurdLimpe(4000)
 
 escreva("Lucas então começa a falar como um viajante no tempo, e os acontecimentos cronológicos")
-AgurdLimpe(4000)
+AgurdLimpe(5000)
 
 escreva("\"10 de Abril de 1912 o Titanic sai da Inglaterra em destino a Nova Iorque\"")
-AgurdLimpe(4000)
+AgurdLimpe(4500)
 
 escreva("\"Mas às 23:40 do dia 14 o Titanic colide com um iceberg\"")
-AgurdLimpe(4000)
+AgurdLimpe(4500)
 
 escreva("\"Por volta de três horas depois o navio afunda, na madrugada do dia 15\"")
-AgurdLimpe(4000)
+AgurdLimpe(5000)
 
 escreva("O capitão não tolera que por erro seu o navio iria afundar")
-AgurdLimpe(4000)
+AgurdLimpe(4500)
 
 escreva("Ele dá as costas para Lucas mas fica com uma pulga atrás da orelha")
-AgurdLimpe(4000)
+AgurdLimpe(4700)
 
 escreva("O técnico sente que conseguiu o que queria")
 AgurdLimpe(4000)
 
 escreva("Pois agora o capitão possui as horas dos acontecimentos")
-AgurdLimpe(4000)
+AgurdLimpe(4500)
 
 escreva("Mesmo que tendo chance do navio afundar, ele decide esperar ali")
-AgurdLimpe(4000)
+AgurdLimpe(4600)
 
 escreva("Pois se desse errado, era apenas ele dar um salto no tempo")
-AgurdLimpe(4000)
+AgurdLimpe(4500)
 
 escreva("Tempo depois...")
-AgurdLimpe(4000)
+AgurdLimpe(3500)
 
 escreva("Felizmente a embarcação chega ao seu destino")
 AgurdLimpe(4000)
 
 escreva("O viajante pensa se o que mudou ali poderia ser mesmo sua interferência")
-AgurdLimpe(4000)
+AgurdLimpe(4700)
 
 escreva("Mas será que isso realmente mudou para melhor?")
 AgurdLimpe(4000)
 
 escreva("MAS É OBVIO!!!")
-AgurdLimpe(4000)
+AgurdLimpe(3500)
 
 escreva("Milhares de pessoas sobreviveram")
 AgurdLimpe(4000)
@@ -2157,22 +2344,22 @@ escreva("Mas não sei o que acontece se eu avisar")
 AgurdLimpe(4000)
 
 escreva("Infelizmente o melhor que faço é deixar acontecer")
-AgurdLimpe(4000)
+AgurdLimpe(4500)
 
 escreva("Sem querer se apegar a alguma coisa ali")
 AgurdLimpe(4000)
 
 escreva("Ou ter a chance de perder sua única maneira de voltar para casa")
-AgurdLimpe(4000)
+AgurdLimpe(5000)
 
 escreva("Ele sai dali com um peso na consciência")
 AgurdLimpe(4000)
 
 escreva("Mas que é aliviado pelo fato de não ser o causador direto daquilo")
-AgurdLimpe(4000)
+AgurdLimpe(5000)
 
 escreva("Tendo a chance de salvar, ele se torna o culpado ou não?")
-AgurdLimpe(4000)
+AgurdLimpe(4500)
 
 			pare
 			caso contrario: escreva("Você não tem muito tempo para pensar, até por que...")
@@ -2307,8 +2494,11 @@ AgurdLimpe(5000)
 
 		funcao noticia(){
 			escreva("*ABERTURA DO JORNAL*")
+			AgurdLimpe(3500)
 		     escreva("Está começando o Jornal Portugol")
+		     AgurdLimpe(3000)
 		     escreva("E as ultimas noticias do mundo até o momento você confere aqui...")
+		     AgurdLimpe(3500)
 			se(trofeu==1){
 				escreva("O esqueleto do dinossauro mais conhecido no mundo por faltar um de seus dente é transportado para outro museu.")
 AgurdLimpe(4000)
@@ -2319,7 +2509,7 @@ AgurdLimpe(4500)
 escreva("\"Muitos dos dinossauros são carnívoros\"")
 AgurdLimpe(4500)
 
-escreva("\"E não seria estranho um de seus dentes acabar ficando preso em seu alimento\"")
+escreva("\"E não seria estranho se um de seus dentes caísse na capitura de seu alimento\"")
 AgurdLimpe(5000)
 
 				
@@ -2437,14 +2627,14 @@ AgurdLimpe(5500)
 
        funcao gameOver(){
        	se(vida==0){
-       		cadeia enter
+       		
 		     faca{
 		        escreva("PRESSIONE ENTER PARA VER AS ESTATISTICAS. Se ouver...")
 		        leia(enter)
 		        limpa()
 		        se(enter!=""){
 			   limpa()
-			   escreva("Não é tão difil, apenas clique no Enter")
+			   escreva("Não é tão difícil, apenas clique no Enter")
 			   AgurdLimpe(4000)
 		        }
 		        senao{
@@ -2547,6 +2737,28 @@ AgurdLimpe(5000)
        	}
        }
 
+       funcao Enter(){
+       	faca{   
+    escreva(" ██████╗     ██╗   ██╗██╗ █████╗      ██╗ █████╗ ███╗   ██╗████████╗███████╗    ██████╗  ██████╗     ████████╗███████╗███╗   ███╗██████╗  ██████╗\n")
+    escreva("██╔═══██╗    ██║   ██║██║██╔══██╗     ██║██╔══██╗████╗  ██║╚══██╔══╝██╔════╝    ██╔══██╗██╔═══██╗    ╚══██╔══╝██╔════╝████╗ ████║██╔══██╗██╔═══██╗\n")
+    escreva("██║   ██║    ██║   ██║██║███████║     ██║███████║██╔██╗ ██║   ██║   █████╗      ██║  ██║██║   ██║       ██║   █████╗  ██╔████╔██║██████╔╝██║   ██║\n")
+    escreva("██║   ██║    ╚██╗ ██╔╝██║██╔══██║██   ██║██╔══██║██║╚██╗██║   ██║   ██╔══╝      ██║  ██║██║   ██║       ██║   ██╔══╝  ██║╚██╔╝██║██╔═══╝ ██║   ██║\n")
+    escreva("╚██████╔╝     ╚████╔╝ ██║██║  ██║╚█████╔╝██║  ██║██║ ╚████║   ██║   ███████╗    ██████╔╝╚██████╔╝       ██║   ███████╗██║ ╚═╝ ██║██║     ╚██████╔╝\n")
+    escreva(" ╚═════╝       ╚═══╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝    ╚═════╝  ╚═════╝        ╚═╝   ╚══════╝╚═╝     ╚═╝╚═╝      ╚═════╝ \n")
+
+				
+       			
+		        escreva("PRESSIONE ENTER PARA COMEÇAR")
+		        leia(enter)
+		        limpa()
+		        se(enter!=""){
+			   limpa()
+			   escreva("Não é tão difícil, apenas clique no Enter")
+			   AgurdLimpe(4000)
+		        }
+       	
+          }enquanto(enter!="")
+       }
        
     
 }
