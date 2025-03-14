@@ -1,0 +1,2764 @@
+programa
+{
+	inclua biblioteca Util
+	inclua biblioteca Calendario
+
+	inteiro vida = 1
+	inteiro pontuacao = 0
+	inteiro lanca = 0
+	inteiro trofeu = 0
+	inteiro mudancaEgito = 0
+	inteiro Salvador
+	inteiro farao
+	inteiro fuga = Util.sorteia(1, 3)
+	inteiro dinossauro
+	inteiro nordico
+	inteiro veneno
+	inteiro cha
+    inteiro enxerido = 0
+    inteiro casa
+    cadeia enter
+    cadeia pular
+	
+	
+	
+	
+
+	funcao inicio()
+	{ 
+
+		Enter()
+		
+		se(vida==1){
+            Introducao()
+          }
+
+	  
+    se(vida==1){
+     pre_historia()
+    }
+    
+
+    se(vida==1){
+     egito()
+    }
+
+    se(vida==1){
+    	vikins()
+   }
+
+    se(vida==1){
+   Renascimento()
+    }
+
+    se(vida==1){
+    Titanic()
+    }
+
+    se(vida==1){
+    	deVolta()}
+
+    gameOver()
+	}
+	funcao Introducao (){
+		inteiro boaPessoa
+		inteiro Gira
+		inteiro corpo
+		
+escreva("Bem-vindo(a) jovem")
+Pular()
+escreva("Essa história é sobre um jovem chamado Lucas")
+Pular()
+escreva("Lembre: cada ação sua determina seu futuro.")
+Pular()
+escreva("Tudo começa em São Francisco, Califórnia. Uma cidade linda, mas cansativa para alguns.")
+Pular()
+escreva("Lucas é um técnico de TI. Sua vida parece um loop, todo dia tão repetitivo e sem graça.")
+Pular()
+escreva("Mas em um dia qualquer, quando está voltando para sua casa")
+Pular()
+escreva("Um desconhecido de capuz esbarra em Lucas, e depressa sai sem pedir desculpas")
+Pular()
+escreva("Olhando para o chão, ele percebe que o rapaz havia deixado seu relógio de bolso cair")
+Pular()
+
+escreva("                          ++      ++                        \n")
+escreva("                        ++          ++                      \n")
+escreva("                            ++++++                          \n")
+escreva("                          ++------++                        \n")
+escreva("                              ++                            \n")
+escreva("                          ----------                        \n")
+escreva("                      ----..      ------                    \n")
+escreva("                    --        --        --                  \n")
+escreva("                  --    --    --    --    --                \n")
+escreva("                ----      --      --      ----              \n")
+escreva("                --  --                  --  --              \n")
+escreva("              ----                ##        ----            \n")
+escreva("              --                ##            --            \n")
+escreva("              --  ----        --        ----  --            \n")
+escreva("              --                            ----            \n")
+escreva("                --    --              --    --              \n")
+escreva("                --  ..                  --  --              \n")
+escreva("                --..                      ----              \n")
+escreva("                  ----  --    --    --  ----                \n")
+escreva("                    ----      --      ----                  \n")
+escreva("                      ------------------                    \n")
+escreva("                            ----::                          \n")
+Pular()
+	
+escreva("Mas já era tarde para ir atras do homem, pois ele havia sumido")
+Pular()
+escreva("O relógio era encantador. Parecia ser muito antigo, uma relíquia desconhecida")
+Pular()
+escreva("Essa resposta não afetará o jogo, mas você tentaria de qualquer forma devolver o relógio?\n\n")
+escreva("[1] Sim\n")
+escreva("[2] Não\n\n")
+Util.aguarde(5000)
+leia(boaPessoa)
+limpa()
+escreva("Esse relógio parecia estar estragado, pois seus ponteiros não giravam.")
+Pular()
+escreva("Mas o que mais chamava atenção era a data que havia em sua lateral. ")
+Pular()
+escreva(Calendario.dia_mes_atual(),"/",Calendario.mes_atual(),"/",Calendario.ano_atual())
+Pular()
+escreva("Exatamente o dia de hoje")
+Pular()
+escreva("Como um objeto tão antigo podia ter a data em que iria ser perdido pelo seu dono?")
+Pular()
+	
+faca {
+
+escreva("Ele pensa em girar o ponteiro\n\n")
+escreva("[1] Girar\n")
+escreva("[2] Nem mexer\n\n")
+    
+leia(Gira)
+limpa()
+    
+escolha(Gira) {
+    caso 1:
+        escreva("Por mais que tentador, Lucas decide girar o relógio.")
+        Pular()
+    pare
+    
+    caso 2:
+        escreva("\"Não faz sentido girar isto, é apenas um relógio quebrado.\" É o que ele pensa.")
+        Pular()
+        
+        escreva("Mas atrás do relógio, em um canto estava escrito \"GIRE\".")
+        Pular()
+        
+        escreva("Motivado, ele decide girar o ponteiro.")
+        Pular()
+    pare
+    
+    caso contrario:
+        escreva("É apenas uma opção simples, girar ou não girar.")
+        Pular()
+}
+} enquanto (Gira < 1 ou Gira > 2)
+	
+escreva("E DE REPENTE")
+Pular()
+escreva(".")
+Util.aguarde(1000)
+escreva(".")
+Util.aguarde(1000)
+escreva(".")
+AgurdLimpe(1000)
+escreva("Nada acontece")
+Pular()
+escreva("Mas quando ele tenta girar ao contrário")
+Pular()
+escreva(".")
+Util.aguarde(1000)
+escreva(".")
+Util.aguarde(1000)
+escreva(".")
+AgurdLimpe(1000)
+escreva("TUDO AO SEU REDOR HAVIA MUDADO")
+Pular()
+escreva("Sem casas, sem ruas, sem humanos. Apenas a natureza")
+Pular()
+escreva("Ele vê um corpo rasgado perto de uma árvore\n\n")
+escreva("[1] Conferir\n")
+escreva("[2] Não conferir por segurança\n\n")
+
+leia(corpo)
+limpa()
+escolha(corpo){
+ 	
+caso 2: escreva("\"Deve ser uma armadilha\"")
+    Pular()
+pare
+	
+caso 1: escreva("A pessoa está realmente morta")
+        Pular()
+        escreva("Mas ele percebe uma lança em baixo do corpo, que resolve levar")
+        Pular()
+        lanca++
+
+			pare
+		}
+	
+	
+
+
+
+	
+	        escreva("                          --\n")
+        escreva("                        ::MMMM++++MMmm\n")
+        escreva("                    --@@::++++++mm++mmmm::\n")
+        escreva("                  ++++mm::@@++++::++++mm++MM--\n")
+        escreva("                  MM++++MMMMmm++++++++++mm##++\n")
+        escreva("                ::++++++++++++++++++mm++++::++--\n")
+        escreva("                @@::mm++@@++++++++++++++++++mm++\n")
+        escreva("              MM##++--..mmMM--++  mm##@@@@--  --\n")
+        escreva("              ++++MM++..--..##########@@\n")
+        escreva("              ++..++++mm----@@MM@@@@##\n")
+        escreva("              ++--++++++++##@@MMMMMM##\n")
+        escreva("              ++--MM++++++++MMMMmmmm##\n")
+        escreva("              ++----##++++::++##++mmmm##\n")
+        escreva("              ++..----++@@++::++####mmmm\n")
+        escreva("              ++..----..++@@##::++@@@@++\n")
+        escreva("              ++..------mmmm++MM++++++++\n")
+        escreva("              ++--------++++++++MM@@MM####\n")
+        escreva("            --++--------++++++++++++++++++++MM\n")
+        escreva("            ##++..----..++++++++++++++++++++++MM\n")
+        escreva("            ##mm----------++++++++++++++++++++++mm\n")
+        escreva("            ##++..--------++++++@@++++++++++++++++..\n")
+        escreva("            ++mm------------::++++mm++++++++++++++MM\n")
+        escreva("            ++++----------....MM++@@++++++++++++++++\n")
+        escreva("            ++--..--------..++++++++++++@@++++++++++++mm\n")
+        escreva("            ++++  --------MM++++..----++##++++++++++++++++\n")
+        escreva("          ..::mm  MM------@@++mm----..--##++++++++++++++++mm@@\n")
+        escreva("            --      ##----..mm++--------##++++++++++++++++++mm++MM\n")
+        escreva("                  ++mm++..------------..MM++++++++++mm++++++++mmmm++@@\n")
+        escreva("                  ++++----mm  ----------++++++++++++::++++++++++++++++++::##\n")
+        escreva("                  mm++--..--++++--------++@@++++++++++--..--++++++++++++++++++mm++\n")
+        escreva("                  ..++++++++++....----MM  ++++++::++MM++..--..::++++++++++++++++++mm\n")
+        escreva("                    mmmm++++++++            ++mm++++++MM::::--------..----++++++++++++::\n")
+        escreva("                      mm++++++::mmmm        --mm++++++--    ##mm++++++++++++++..--::::++\n")
+        escreva("                            --MM++@@        ++++mm++++mm                        ..mm::++++\n")
+        escreva("                          @@++++++            ##++++++mm                            ..++++\n")
+        escreva("                        mmmm++mm++              @@++++@@                              ++++\n")
+        escreva("                      ++++++++  ..                @@++++                              ++##\n")
+        escreva("                      @@##++++                      ##mm++                            ++\n")
+        escreva("                      MM##@@                        ..++++                            MM\n")
+        escreva("                      @@++@@                        ##++++\n")
+        escreva("                      ++mm--                        MM++++++\n")
+        escreva("                        mm                          ##::mmmm\n")
+        escreva("                                                    ++MM::++\n")
+        escreva("                                                  ++++@@++MMmm\n")
+        escreva("                                                  @@##MM--MMmm##\n")
+        escreva("                                                ++    --  --  ++++\n")
+
+Pular()
+escreva("\"MAS QUE MERDA É ESSA?!!!\"")
+Pular()
+escreva("Lucas precisa fazer alguma coisa\n\n")
+
+}
+
+funcao pre_historia(){
+     
+    inteiro dente
+
+    escreva("[1] Correr\n")
+    escreva("[2] Esconder\n")
+    escreva("[3] Atacar\n")
+    escreva("[4] Mexer no relógio\n\n")
+
+    faca {
+        leia(dinossauro)
+        limpa()
+        escolha(dinossauro){
+
+        caso 1: escreva("Lucas começa a correr para sobreviver")
+                Pular()
+                escreva("Mas o dinossauro corre mais rápido que Lucas")
+                Pular()
+                vida = 0
+                morte()
+            pare
+        caso 2: escreva("Ele se esconde atrás de uma rocha próxima. Existe uma chance de sobreviver")
+                Pular()
+                inteiro sobrevRocha = Util.sorteia(1, 2)
+                se(sobrevRocha == 1){
+                    escreva("Felizmente o dinossauro não vê ele")
+                    Pular()
+                    escreva("Ele decide então sair do período jurássico")
+                    Pular()
+                    escreva("Com sucesso dessa vez, ele gira o ponteiro em sentido horário")
+                    Pular()
+                }
+                senao{
+                    escreva("Lucas fecha os olhos, e torce para que ele não tenha visto")
+                    Pular()
+                    escreva(".")
+                    Util.aguarde(1000)
+                    escreva(".")
+                    Util.aguarde(1000)
+                    escreva(".")
+                    Pular()
+                    vida = 0
+                    morte()
+                }
+            pare
+        caso 3: se(lanca == 1){
+                 escreva("Ele tem uma lança e uma chance")
+                 Pular()
+                 escreva("ELE ARREMESSA A LANÇA")
+                 Pular()
+                 escreva(".")
+                 Util.aguarde(1000)
+                 escreva(".")
+                 Util.aguarde(1000)
+                 escreva(".")
+                 Pular()
+                 
+                 escreva("A lança crava no olho")
+                 Pular()
+
+                 escreva("Em seguida o dinossauro cai morto no chão ")
+                 Pular()
+
+                 escreva("Será que Lucas deve arrancar o dente do dinossauro, para ter como um troféu?\n\n")
+                 escreva("[1] Pegar a presa\n")
+                 escreva("[2] Não pegar\n\n")
+                 leia(dente)
+                 limpa()
+                 escolha(dente){
+                    caso 1: escreva("\"Se eu pegar a lança talvez consiga retirar a presa dele\"\n")
+                            Pular()
+
+                            escreva("\"ISSO!!!\"")
+                            Pular()
+                            trofeu++
+                            pare
+                    caso 2: escreva("\"Para que isso? não sou um homem das cavernas\"")
+                            Pular()
+                            pare
+                 }
+                 
+                 escreva("Ele decide então sair do período jurássico")
+                 Pular()
+
+                 escreva("Com sucesso dessa vez, ele gira o ponteiro em sentido horário")
+                 Pular()
+            }
+            senao{
+                escreva("O que Lucas vai atacar? Ele não tem nada")
+                Pular()
+                vida = 0
+                morte()
+            }
+            pare
+        caso 4: escreva("Lucas gira o ponteiro, e vai para um momento onde o dinossauro ainda não estava ali")
+                Pular()
+
+                escreva("Ele decide então sair do período jurássico")
+                Pular()
+
+                escreva("Com sucesso dessa vez, ele gira o ponteiro em sentido horário")
+                Pular()
+            pare
+        caso contrario: escreva("Por favor, não seja um homem das cavernas\n")
+         
+            pare
+        }
+        
+    } enquanto(dinossauro < 1 ou dinossauro > 4)
+}
+
+
+funcao egito(){
+      
+      inteiro congelados
+
+      escreva("Ele vai para um deserto. Egito antigo especificamente")
+      Pular()
+
+      escreva("Sem estar desesperado, Lucas confere seu relógio novamente")
+      Pular()
+
+      escreva("Desta vez a data marcada era diferente")
+      Pular()
+
+      escreva("Não era exata")
+      Pular()
+
+      escreva("1279 a.C")
+      Pular()
+
+      escreva("\"Onde estou agora?\"")
+      Pular()
+
+      escreva("Outra vez ele é pego de surpresa")
+      Pular()
+
+      escreva("Alguém lhe acerta na cabeça")
+      Pular()
+       
+      escreva("Quando acorda, está em uma cela")
+      Pular()
+
+      escreva("Para sair daquela situação, o técnico decide girar o relógio...")
+      Pular()
+
+      escreva("MAS ESPERA!")
+      Pular()
+
+      escreva("O relógio sumiu")
+      Pular()
+
+      escreva("Ele grita por ajuda, mas ninguém aparece")
+      Pular()
+
+      escreva("Então, dois guardas aparecem e levam ele")
+      Pular()
+
+      escreva("Lucas é jogado na frente do faraó")
+      Pular()
+
+      escreva("\n")
+      escreva("                                                      ----::::::--..\n")
+      escreva("                                            ++####      --MMMMMM..    ..####..\n")
+      escreva("                                    mm##--..  @@MMMMMMMMMMMMMMMMMMMMMMMMMM##  ..--##--\n")
+      escreva("                                ++  ............MMMMMMMMMMMMMMMMMMMMMMMMMM  ............MM\n")
+      escreva("                              ##................##MMMMMMMMMMMMMMMMMMMMMM++..............--..\n")
+      escreva("                              ::MM................MMMMMMMMMMMMMMMMMM@@MM................##mm\n")
+      escreva("                                ##............::..@@@@@@@@@@MM@@@@@@@@@@--++..........--@@MM\n")
+      escreva("                            ..  @@mm........::++..@@@@@@@@@@@@@@@@@@MM--::++--........##MM..\n")
+      escreva("                            mm..MM##------++++++++..MM@@@@@@@@@@@@@@@@--++++++::----++@@MM\n")
+      escreva("                            MM::MM@@MM++++++++++++--@@@@@@@@@@@@@@@@MM++++++++++++++##@@MM  mm\n")
+      escreva("                            ..MMMM@@##++++++++++++++@@@@@@@@@@@@@@@@::++++++++++++++@@@@MM--MM\n")
+      escreva("                          mm  MM@@@@@@++++++++++++++mm@@@@@@@@@@@@@@--++++++++++++##@@@@@@MM..\n")
+      escreva("                          ##@@@@@@######++++++++++++MM##############mm++++++++++++######@@@@MMMM\n")
+      escreva("                          --......++++@@++++++####@@@@@@MMMMMMMMMM@@@@@@####++++++mm++::....  ##\n")
+      escreva("                        ::  ......++++++++##MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM@@##mm++++::......--\n")
+      escreva("                        ##  ....--++++++@@MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##++++++......  MM\n")
+      escreva("                        ::....--++++++++##MMMM@@@@@@##################@@@@MMMM@@##++++++++--..  ##\n")
+      escreva("                      ::  ..--++++++++++##@@####++++--..............--++++####@@++++++++++++--..\n")
+      escreva("                      ##@@@@MMMM@@@@@@@@@@++----@@@@::..............++@@@@..--@@@@@@@@@@@@MMMM@@--MM\n")
+      escreva("                      ::MMMMMMMMMM@@@@@@##mm--MM..++######....--####@@::::MM..####@@@@@@MMMMMMMMMM##\n")
+      escreva("                    mm--MMMMMMMMMM@@@@MM::##++@@######mm++--..++++MM######mm++@@::##@@@@MMMMMMMMMM  ..\n")
+      escreva("                    @@MMMMMMMM@@@@@@@@@@@@@@::....::####MM--..MM######......++++--##@@@@@@@@MMMMMMMM##\n")
+      escreva("                  ++MM##################::++++............--..::............MM++..##################@@\n")
+      escreva("                  ##................::::##::mm............--..--............##::MM::--................@@\n")
+      escreva("                ::......................::@@@@............::..@@..........::##++......................++\n")
+      escreva("                ##........................++##::........--::..@@##........++mm::........................##\n")
+      escreva("              ##......................--::++mm::......--@@++..####........MM++++::--....................  ::\n")
+      escreva("            MM      ..--++mmmmMMMM@@@@########@@........::++MM::--........##########@@MMMMMMmm++::....      --\n")
+      escreva("          mm@@++@@@@@@MMMMMMMMMMMMMMMMMM@@@@@@##++....--::::--::::--....@@@@@@@@MMMMMMMMMMMMMMMMMMMM@@@@mm++##\n")
+      escreva("              ##    MMMMMMMMMMMMMMMMMMMMMM@@@@@@##--................--mm##@@@@MMMMMMMMMMMMMMMMMMMMMMMM    ##\n")
+      escreva("                --@@  ..MMMMMMMMMMMMMMMMMMMM@@@@####................++####@@@@MMMMMMMMMMMMMMMMMMMM    ##\n")
+      escreva("                    ##    mmMMMMMMMMMMMMMMMM@@@@######--..........::##MM##@@@@MMMMMMMMMMMMMMMM--  ::MM\n")
+      escreva("                      @@--  --MMMM@@@@@@@@@@@@@@##++MM##mm------mm##++mm##@@@@@@@@@@@@@@MMMM    ##..\n")
+      escreva("                          ##########++++MM++++++##++++mmMMMMMMMM##++++mm++++++++MM++MM##########\n")
+      escreva("                            ##  ............::++@@mm++@@MMMMMMMM##mm++@@++++--..........  ..MM\n")
+      escreva("                              ##  ............++++++++@@MMMMMMMM@@mm++@@++++............  mm\n")
+      escreva("                                ##..........--++++mm--############mm..##++++--........  ##\n")
+      escreva("                                --######@@@@MM++++mm::##..........mm..##++++MM@@########\n")
+      escreva("                                  ##MMMMMMMMMM@@@@mm::##..........@@--##@@@@MMMMMMMM::##\n")
+      escreva("                                  ##::MMMMMMMMMM@@##mm##::::++::::##MM##@@MMMMMMMMMM  ::\n")
+      escreva("                                  ::..MMMMMMMM@@@@mmmm##MMMMMMMMMM##::##@@MMMMMMMMMM++\n")
+      escreva("                                    ++MMMMMMMM@@@@mm++##MMMMMMMMMM##::##@@@@MMMMMMMM##\n")
+      escreva("                                    ##############mm++##MMMMMMMMMM##::################\n")
+      escreva("                                    ##........::++mm++##@@@@@@@@@@##::##++::........++\n")
+      escreva("                                    MM..........MMmm++++..........##++@@++........::..\n")
+      escreva("                                    ++..........##++mm--..........@@++@@++........@@\n")
+      escreva("                                    ..++........##++MM............MM++mm++........@@\n")
+      escreva("                                      @@::......##::MMmmMMMMMMMMMMMM++mmmm......++##\n")
+      escreva("                                      ##MM########--MMMMMMMMMMMMMMMM++++######@@MM##\n")
+      escreva("                                      ##MMMMMM@@##--MMMMMMMMMMMMMMMM++::##MMMMMM@@@@\n")
+      escreva("                                      ##MMMMMM@@##..@@MMMMMMMMMMMMMM++--##@@MMMM@@::\n")
+      escreva("                                      ##@@MMMM@@##..mm####@@@@####@@::--##@@MM@@@@--\n")
+      escreva("                                        @@@@@@@@::----------..----------##@@@@##MM\n")
+      escreva("                                            ##@@                          ####\n")
+      Pular()
+
+      escreva("O faraó questiona Lucas")
+      Pular()
+
+      escreva("Sem entender o que disse, o viajante decide...\n\n")
+
+      escreva("[1] Fugir\n")
+      escreva("[2] Se explicar\n")
+      escreva("[3] Roubar uma arma\n")
+      escreva("[4] Desenhar\n\n")
+
+      faca{
+           
+        leia(farao)
+        limpa()
+        
+        escolha(farao){
+        	
+        caso 1: 
+
+           se(fuga!=1){
+                 escreva("Ele decide fugir")
+                 Pular()
+                 
+                 escreva("Confiante, ele empurra o guarda a sua esquerda")
+                 Pular()
+                 
+                 escreva("Corre sem olhar para trás")
+                Pular()
+                
+                escreva("E quando Lucas vira o corredor")
+                Pular()
+                
+                escreva("Se depara com alguns tesouros em uma sala")
+                Pular()
+                
+                escreva("E la está, seu relógio em cima de uma mesa")
+                Pular()
+                
+                escreva("Quando o viajante vai pegar o relógio")
+                Pular()
+                
+                escreva("Um guarda espeta uma lança por trás, bem em sua barriga")
+                Pular()
+                
+                escreva("Por um momento, com lagrimas no rosto")
+                Pular()
+                
+                escreva("Ele pensa como tudo aquilo poderia ter acontecido para ele morrer alí")
+                Pular()
+                
+                vida=0
+                morte()
+		 }
+		 senao{
+                 escreva("Ele decide fugir")
+                 Pular()
+                 
+                 escreva("Confiante, ele empurra o guarda a sua esquerda")
+                 Pular()
+                 
+                 escreva("Corre sem olhar para trás")
+                 Pular()
+                
+                 escreva("E quando Lucas vira o corredor")
+                 Pular()
+                
+                 escreva("Se depara com alguns tesouros em uma sala")
+                 Pular()
+                
+                 escreva("E la está, seu relógio em cima de uma mesa")
+                 Pular()
+
+                 escreva("Ele pega o relógio e gira rapidamente")
+                 Pular()
+
+                 retorne
+                              }
+                              
+           pare
+           caso 2: escreva("Ele decide se explicar")
+                 Pular()
+                 
+                 escreva("Lucas fala que não é desse tempo, e que pode viajar entre eles")
+                Pular()
+                
+                escreva("Sem entender nada, o faraó ordena que levem-o")
+                Pular()
+                
+                escreva("Jogam ele na cela novamente")
+                Pular()
+                
+                escreva("Então o pobre rapaz fica preso pelo resto de sua vida")
+                Pular()
+                
+                vida=0
+                morte()
+           pare
+           caso 3: escreva("Ele decide roubar a arma do guarda")
+                 Pular()
+                 
+                 escreva("Ligeramente ele pega a lança")
+                 Pular()
+                 
+                 escreva("Mas talvez tudo aquilo tenha sido inútil para ele")
+                Pular()
+                
+                escreva("Pois logo o cercam")
+                Pular()
+                
+                escreva("Os guardas retiram a arma de sua mão, e o estabilizam")
+                Pular()
+                
+                escreva("O faraó se levanta")
+                Pular()
+                
+                escreva("Pega sua espada")
+                Pular()
+                escreva("E finca no peito de Lucas")
+                Pular()
+                
+                vida=0
+		     	          morte()
+
+
+           pare
+           caso 4: escreva("Ele decide desenhar")
+                 AgurdLimpe(3000)
+                 
+                 escreva("Fazendo sinais de desenhar, o faraó entrega uma pedra")
+                 AgurdLimpe(4200)
+                 
+                 escreva("Mesmo que parecendo ser mudo, Lucas começa a desenhar o relógio no chão")
+                 AgurdLimpe(5000)
+                 
+                 escreva("O faraó ordena que os guardas tracam o objeto")
+                AgurdLimpe(4200)
+                
+                escreva("Assim que o rapaz pega o relógio")
+                AgurdLimpe(3700)
+                
+                escreva("Ao invés de girar o ponteiro, ele tenta algo novo")
+                AgurdLimpe(4200)
+                
+                escreva("Ele apenas mantém o dedo precionado no ponteiro")
+                AgurdLimpe(4200)
+                
+                escreva("Mesmo que arriscado ele consegue executar com sucesso seu plano")
+                AgurdLimpe(4400)
+                
+                escreva("Todos a sua volta estavam congelados no tempo")
+                AgurdLimpe(4200)
+                
+                escreva("Sendo assim, ele engana o imperador de qualquer coisa que ele esperace")
+                AgurdLimpe(5000)
+                
+                escreva("Podendo agora fazer o que quiser no seu tempo")
+                AgurdLimpe(4200)
+                
+               
+                
+                
+                faca{
+                     escreva("Ele...\n\n")
+                escreva("[1] se vinga do faraó\n")
+                escreva("[2] se vinga dos guardas\n")
+                escreva("[3] volta para o seu tempo\n")
+                escreva("[4] tenta algo novo\n\n")
+                    
+                    leia(congelados)
+                	limpa()
+                	escolha(congelados){
+                    caso 1:escreva("Ele decide matar o faraó")
+                    AgurdLimpe(3500)
+                    escreva("Assim ele pega uma das lanças dos guardas e finca no imperador")
+                    AgurdLimpe(4000)
+                    mudancaEgito++
+                    
+                    pare
+                    
+                    caso 2:escreva("Ele decide matar os guardas")
+                    AgurdLimpe(3500)
+                    escreva("Assim ele pega uma das lanças dos guardas e finca em todos eles")
+                    AgurdLimpe(4000)
+                    mudancaEgito = 2 
+                    
+                    pare
+                    
+                    caso 3:escreva("Ele decide voltar para o seu tempo")
+                    AgurdLimpe(3700)
+                    escreva("Ele gira o relógio na tentativa de ir para seu tempo atual")
+                    AgurdLimpe(4000)
+                    mudancaEgito = 3
+                    pare
+                    
+                    caso 4:escreva("Ele decide levar o faraó para outro tempo")
+                    AgurdLimpe(4000)
+                    escreva("Ele agarra no braço do faraó, e com sua outra mão gira o relógio")
+                    AgurdLimpe(4000)
+                    mudancaEgito = 4
+                    pare
+                    
+                    caso contrario:escreva("Ele decide ficar congelado no tempo. Não seja um idiota e escolha algo")
+                    AgurdLimpe(4500)
+                    }
+                }enquanto(congelados<1 ou congelados>4)
+
+		
+                
+
+           pare
+           caso contrario: escreva("Não seja deselegante, jogue o jogo como gente")
+           pare
+         }
+       }enquanto(farao < 1 ou farao > 4)
+       
+
+
+
+      
+
+      
+     }
+
+
+     funcao vikins(){
+	 
+	
+	inteiro velho
+
+	escreva("Avançando no tempo, agora Lucas se encontra em uma taverna")
+	AgurdLimpe(5000)
+
+	se(mudancaEgito == 4){
+     escreva("Lucas discretamente se afasta do faraó, e deixa ele lá")
+     AgurdLimpe(5000)
+	}
+
+	escreva("O sobrevivente acabava esbarrando em um homem forte")
+	AgurdLimpe(5000)
+
+	
+    escreva("                                                  @@\n")
+    escreva("                                                ..++\n")
+    escreva("                                                ##  MM\n")
+    escreva("                                                ##  ----              ##MM##--\n")
+    escreva("                                                ##    ++..          mm::    --                  mmmm\n")
+    escreva("                                                @@      --MMMM  @@--  ..    ##@@              MM..MM\n")
+    escreva("                                                  ::          ##    ..      ##  ##          ##    MM\n")
+    escreva("                                                  ##    ::....  ..--::      ::    ++@@..##mm      --\n")
+    escreva("                                                    ####  ....----::##        ::      ++        ##\n")
+    escreva("                                                      ++..MM--------@@      --::::  ..  mm    ----\n")
+    escreva("                                                      ++##@@@@@@MM++--..  --::--::--....##  mm--\n")
+    escreva("                                                    ++  ..  ..            ++##mm::::@@----##\n")
+    escreva("                                                    @@  --::##@@##..--..--....  ..@@@@@@MM\n")
+    escreva("                                                    ##@@mm##::::MM##@@mm::..mm++----..  @@\n")
+    escreva("                                                    mmmm  --::..      ..--::++mmmmMM..  ##\n")
+    escreva("                                              @@::--::MM        ..      ....mm####mm##++@@..@@\n")
+    escreva("                                            mm    ##++MM    ......    ::......--....::++##    ##\n")
+    escreva("                                            mm..--##++MM    MM  ##  ++::::--##..mm....mm@@::..##\n")
+    escreva("                                      ++::  ..--mm@@++mm      ..  ##mmmmMM@@..  ......mmmmMM..++\n")
+    escreva("                                      @@MM    ##mm##++++        mm++      ++::......##mmMM##mm      ::::\n")
+    escreva("                                              ####::++::##    @@##::::::::::##@@..--MMmmmmmm##      ++  ##\n")
+    escreva("                      mm    ##@@--@@++    mm@@##++++++##    ##  ++##mmmmMM##++  ##--..@@++++mm@@##    ##..######@@    ##\n")
+    escreva("                    ##                ####++##::::++@@    ##::++mmmmMM@@mmmmmmmm::##..MMmmmmmmmmMM@@--@@                ##\n")
+    escreva("                    ##                  MM##@@mm++++mm  ..--mmmmmm##++..++##mmmmmm::--..@@mmmm@@@@@@##                  MM\n")
+    escreva("                    --                      --++++++##  ##++mmMM##MM::..--++##MMmmmm##mmMMmm++mm++                      ++\n")
+    escreva("                  ##                          ##++mmmm####++MM##################mmmm##mmmmmmmm##                          ##\n")
+    escreva("                  ..                          @@++mm++++##mm######mm++++::####@@##MM@@MMmmmmmmMM                          ..\n")
+    escreva("                ++                            ##mm++++::++####++::mmMM@@MM++::::####mmmmmmmm++##                            ::\n")
+    escreva("              ++  ..                          ::++++++++mmMM####::::++++::++MMMM##MMMMmmmmmmmmmm                            ..++\n")
+    escreva("              MM              ..                mm##MM++mm++mmmmmm########@@++++MMmmmmmmmm@@##                  ..            MM\n")
+    escreva("              @@    ......          ..          ..::mm@@++++++++++mm++++++++mmmmmmmmMM##++++::                                @@\n")
+    escreva("              ----                      ##MM::##--++mm##@@++++++++++++mmmmmmmmmmmmmm@@##++++..##----MM                        ++\n")
+    escreva("                MM      ..          ::##mmMMMM##++::@@MM..MM++++++++++mmmmmmmmmmmmMM..MMMMmmMM##MMMMMM##                    ##\n")
+    escreva("                @@      @@@@##########MMmmMMMMmm....++++..##++++++++++mmmmmmmmmmmm@@..++mm....MMMMMMmm@@####MMMM####MM      ##\n")
+    escreva("                ::  --####@@@@####@@mmmm++MMMMMM++..##mm--##++++++++++mmmmmmmmmm++##--mm@@..++MMMMMMmmmmMM@@######@@####mm  ++\n")
+    escreva("                ..      ##@@@@##@@++++++++MMMMmm##mm++mmMMmm++++++++++mmmmmmmmmmmm@@@@++@@####MMMMMM++++++mm##@@@@@@##                      \n")
+    escreva("              --        ##MMMMMMMMmm++++++mmMMMMMM....MM##::++++++++++mmmmmmmmmmmmmm##@@....@@MMmmmm++++++mmMMmmMM@@##                      \n")
+    escreva("              ++        MMMMmmMMMMMM++mm++++MMmmMM::..##mm++++++++++++mmmmmmmmmmmmmmMM##..::MMMMMM++++++++mmMMMMMMMM@@        MM            \n")
+    escreva("              ##        ..MMmmMMMMMM++mm++++MMMMmm##mm##++::++++++++++mmmmmmmmmmmm++++@@##@@MMMMMM++++++++MMMMMMMMMM..        @@            \n")
+    escreva("              mm          @@mmMMMMMMmmmm++++mmMMMM@@....mm++++++++++++mmmmmmmmmmmmmmmm....##MMmmMM++++++++MMMMMMMMMM          MM            \n")
+    escreva("              ++          @@MMMMMMMMmm++++++mmMMMMMM....mm##++++++++::mmmmmmmmmmmm@@mm..--MMMMMMmmmm++++mmMMMMMMMM##          --            \n")
+    escreva("              ..          mmMMMMMMMMmm++++++++mmMMMM##@@mm##++++++++++mmmmmmmmmmmm##++##MMMMMMMM++++++++mmMMMMMMmmmm          ..            \n")
+    escreva("                          ::MMMMMMMMMM++++mm++mmmmMM##++mmMM++++++++++mmmmmmmmmmmmMMmm++##MMMMMMmm++++mmmmMMMMMMMM..                        \n")
+    escreva("              ++          MMmmMMMMMMMM++mm++mmmmMMMM@@MM##MM++++++++++mmmmmmmmmm++@@@@mmMMMMMMMM++mm++++MMMMMMmmMM@@          --            \n")
+    escreva("              mm          MMMMMMMMMM@@++              mm::++++++++++++mmmmmmmmmmMM++mmMM          ..++mmmmMMMMMMMM##          MM            \n")
+    escreva("                mm++..@@##MMMM..            ..........@@@@++mm++++++++mmmmmm++++mmMM####  ....                ++MMMM##::  ..@@              \n")
+    escreva("                    ##++        ..++mm++              ::mm@@##mm++++++mm++++++####MMMM--          ..++mm::::        ..mm##                  \n")
+    escreva("                    ##    mm++--                  ++@@MMMMMMMM@@@@++++++++mm##MMMMMMMMMM@@..              ....::mm--    mm                  \n")
+    escreva("                    ##@@....  ..          ..@@mm++++mmMMMMMMMMMMMM##mmmm##@@MMMMMMMMMMMMmm++mm@@::            ..    --MMmm                  \n")
+    escreva("                    ----  ..  ::MM##mm        ##@@++++++++mmMMMMMMMMMM@@MMMMMMMMmmmm++++++mm##        ++##++--..  ..    ++                  \n")
+    AgurdLimpe(5000)
+
+
+	escreva("Surpreendentemente o relógio havia feito um \"upgrade\"")
+	AgurdLimpe(5000)
+
+	escreva("Agora podendo entender o que o homem dizia")
+	AgurdLimpe(5000)
+
+	escreva("Lucas descobre que as pessoas no bar são nórdicos")
+	AgurdLimpe(5000)
+
+	escreva("Conferindo seu relógio, ele vê que a data era apenas o ano. 793")
+	AgurdLimpe(5000)
+
+     escreva("O grandalhão avisa o viajante que lá fora está muito frio")
+	AgurdLimpe(5000)
+	  
+	   
+	     se(trofeu == 1){
+	     }
+	     
+	 se(trofeu==1){
+	 	faca{
+	 		escreva("Ele diz ter um manto feito de pele de lobo, mas Lucas terá que comprar dele\n\n")
+	          escreva("[1] Não tenho nada para trocar\n")
+	          escreva("[2] Entregar o relógio\n")
+	 	     escreva("[3] Entregar o dente\n\n")	
+	 	    	 leia(nordico)
+	 	    	 limpa()
+
+                escolha(nordico){
+                caso 1:escreva("\"Me desculpe, não tenho nada para trocar\"")
+                AgurdLimpe(5000)
+
+                escreva("\"Mas por favor, me dê o manto\"")
+                AgurdLimpe(5000)
+
+			escreva("\"Seu tolo, não é assim que as coisas funcionam por aqui\", disse o bárbaro")
+			AgurdLimpe(5000)
+
+			escreva("\"Mas pode fazer algo para mim\"")
+			AgurdLimpe(5000)
+
+			escreva("\"Sem ele perceber, você terá que colocar este veneno na bebida daquele velho ali\"")
+			AgurdLimpe(5000)
+
+			escreva("\"Caso consiga, o manto é seu\"")
+			AgurdLimpe(5000)
+
+                       faca{escreva("O que você ira fazer?\n\n")
+                            escreva("[1]Colocar\n")
+                            escreva("[2]Não colocar\n\n")
+                            leia(veneno)
+                            limpa()
+                            escolha(veneno){
+                            	caso 1:escreva("Cuidadosamente o rapaz se aproximou do senhor")
+							AgurdLimpe(3500)
+
+							escreva("Lucas sentou na mesa onde o velho estava")
+							AgurdLimpe(3500)
+
+							escreva("E logo colocou o veneno no copo")
+							AgurdLimpe(3500)
+
+							escreva("O senhor apenas percebeu Lucas sentado do seu lado. E puxou papo...")
+							AgurdLimpe(4500)
+
+							escreva("\"E aí jovem?\"")
+							AgurdLimpe(3500)
+
+                            	       
+                            	       faca{escreva("\"O que um garoto como você faz aqui nesse bar?\"\n\n")
+                            	            escreva("[1] Falar a verdade\n")
+                            	            escreva("[2] Mentir\n")
+                            	            escreva("[3] Falar do veneno\n\n")
+                            	            leia(velho)
+                            	            limpa()
+                            	            escolha(velho){
+                            	            	caso 1:escreva("Eu não sou daqui")
+										AgurdLimpe(3500)
+
+										escreva("Eu venho de um lugar que ainda nem existe")
+										AgurdLimpe(4500)
+
+										escreva("Mas graças a um objeto, posso ir para qualquer lugar")
+										AgurdLimpe(4500)
+
+										escreva("O senhor com um sorriso no canto do rosto disse:")
+										AgurdLimpe(4500)
+
+										escreva("Olha, eu já bebi demais hoje, mas acho que você passou dos limites")
+										AgurdLimpe(5000)
+
+										escreva("O velho pegou seu copo e deu seu último gole")
+										AgurdLimpe(4500)
+
+										escreva("Venha comigo garoto")
+										AgurdLimpe(3500)
+
+										escreva("Eu e meu filho temos um barraco")
+										AgurdLimpe(3500)
+
+										escreva("Não são grandes coisas, mas você pode passar um tempo lá")
+										AgurdLimpe(4500)
+
+										escreva("\"Mas por que fazer isso? Ainda mais para um estranho\". Disse o viajante")
+										AgurdLimpe(5000)
+
+										escreva("Você lembra meu outro filho. Ele morreu jovem, com quase sua idade")
+										AgurdLimpe(5000)
+
+										escreva("Ele era um jovem bom, mas se apaixou pela garota errada.")
+										AgurdLimpe(4500)
+
+										escreva("Isso levou a sua morte")
+										AgurdLimpe(3500)
+
+										escreva("Vejo a mesma bondade dele em você")
+										AgurdLimpe(4500)
+
+										escreva("Assim que se levantou, o velho caiu morto no chão")
+										AgurdLimpe(5000)
+
+										escreva("O filho do senhor chegou à taverna e viu seu pai caído no chão")
+										AgurdLimpe(5000)
+
+										escreva("\"O QUE ACONTECEU?\" disse o homem")
+										AgurdLimpe(3500)
+
+										escreva("O bárbaro que havia dado o veneno acusou Lucas")
+										AgurdLimpe(4500)
+
+										escreva("FOI ELE!!! Eu vi ele colocando um veneno no copo de seu pai")
+										AgurdLimpe(4500)
+
+										escreva("Lucas sem pensar duas vezes gira o ponteiro e sai daquela situação")
+										AgurdLimpe(5000)
+
+										escreva("\"O que foi que eu fiz?\". Pensa Lucas")
+										AgurdLimpe(4500)
+
+                            	            	       
+                            	            	pare
+                            	            	caso 2:escreva("\"Embora pareça, eu não sou um garoto\"")
+									AgurdLimpe(4500)
+
+									escreva("\"Já bebi muito mais que você nessa vida\"")
+									AgurdLimpe(4500)
+
+									escreva("\"Tenho que admitir...\"")
+									AgurdLimpe(3500)
+
+									escreva("\"As pessoas nesse bar não são nada perto do reino que estava antes\"")
+									AgurdLimpe(5000)
+
+									escreva("\"Mas mesmo assim devo brindar, por estarmos vivos\". Disse o viajante")
+									AgurdLimpe(5000)
+
+									escreva("O velho fez o brinde com Lucas e logo bebeu o veneno")
+									AgurdLimpe(4500)
+
+									escreva("\"Vai com calma rapaz\"")
+									AgurdLimpe(3500)
+
+									escreva("\"Nunca se esqueça de quem você realmente é\"")
+									AgurdLimpe(4500)
+
+									escreva("\"Eu já fui como você\"")
+									AgurdLimpe(4500)
+
+									escreva("Assim que se levantou, o velho caiu morto no chão")
+									AgurdLimpe(5000)
+
+									escreva("O filho do senhor chegou à taverna e viu seu pai caído no chão")
+									AgurdLimpe(5000)
+
+									escreva("\"O QUE ACONTECEU?\" disse o homem")
+									AgurdLimpe(3500)
+
+									escreva("O bárbaro que havia dado o veneno acusou Lucas")
+									AgurdLimpe(4500)
+
+									escreva("FOI ELE!!! Eu vi ele colocando um veneno no copo de seu pai")
+									AgurdLimpe(4500)
+
+									escreva("Lucas sem pensar duas vezes gira o ponteiro e sai daquela situação")
+									AgurdLimpe(5000)
+
+									escreva("\"O que foi que eu fiz?\". Pensa Lucas")
+									AgurdLimpe(4500)
+
+                            	            	pare
+                            	            	caso 3:escreva("\"Na verdade estou perdido\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Não sei o que ainda estou fazendo aqui\"")
+										AgurdLimpe(4500)
+
+										escreva("\"E por que faço as coisas que faço\"")
+										AgurdLimpe(4500)
+
+										escreva("Quando o velho acaba de escutar, pega seu copo e leva em direção à boca")
+										AgurdLimpe(5000)
+
+										escreva("\"ESPERA!!!\"")
+										AgurdLimpe(3500)
+
+										escreva("\"Não beba isto! Aquele cara mandou eu colocar um veneno em seu copo\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Este homem não presta\". Disse o velho")
+										AgurdLimpe(4500)
+
+										escreva("\"A mulher dele havia se apaixonado por outro cara\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Meu filho\"")
+										AgurdLimpe(3500)
+
+										escreva("\"Ele descobriu que os dois se amavam\"")
+										AgurdLimpe(4500)
+
+										escreva("\"E sumiu com os dois\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Não bastando matar meu menino, ele quer me matar também\"")
+										AgurdLimpe(5000)
+
+										escreva("\"Parece que a vingança dele nunca vai acabar\"")
+										AgurdLimpe(4500)
+
+										escreva("O viajante decide confrontar o viking")
+										AgurdLimpe(4500)
+
+										escreva("Ele pega seu relógio, pressiona o ponteiro e encosta no bárbaro")
+										AgurdLimpe(5000)
+
+										escreva("Assim, quando ele se afasta e solta o ponteiro")
+										AgurdLimpe(4500)
+
+										escreva("Apenas o viking continua congelado no tempo")
+										AgurdLimpe(4500)
+
+										escreva("Lucas olha para o velho e diz...")
+										AgurdLimpe(3500)
+
+										escreva("\"Pronto, ele nunca mais fará mal a ninguém novamente\"")
+										AgurdLimpe(4500)
+
+                            	            	pare
+                            	            	caso contrario:escreva("\"Eu estou confuso, não consigo responder a essa simples pergunta\"")
+                                                            AgurdLimpe(5000)
+
+                            	            	pare
+                            	            	}
+                            	            
+                            	       }enquanto(velho<1 ou velho>3)
+                            	       
+                            	pare
+                            	caso 2: escreva("\"Não irei fazer isto, eu sou uma pessoa boa\"")
+                                   AgurdLimpe(5000)
+
+							escreva("\"Você é burro, isso sim\". Disse o viking que logo lhe acertou com um soco")
+							AgurdLimpe(5000)
+
+							escreva("Com raiva Lucas se levanta.")
+							AgurdLimpe(4500)
+
+							escreva("Fecha sua mão que segura o relógio")
+							AgurdLimpe(4500)
+
+							escreva("E devolve o soco no viking")
+							AgurdLimpe(4500)
+
+							escreva("Agora com medo do que o bárbaro poderá fazer com ele")
+							AgurdLimpe(5000)
+
+							escreva("Lucas gira o ponteiro em sentido horário")
+							AgurdLimpe(4500)
+
+							escreva("MAS O QUE?!!!")
+							AgurdLimpe(3500)
+
+							escreva("O grandalhão ficou velho, parecia que havia se passado décadas para ele")
+							AgurdLimpe(5000)
+
+							escreva("Na verdade, ao invés do técnico viajar no tempo")
+							AgurdLimpe(5000)
+
+							escreva("Ele fez com que o bruto envelhecesse em segundos")
+							AgurdLimpe(5000)
+
+							escreva("Com a troca de socos que tinham feito na taverna")
+							AgurdLimpe(4500)
+
+							escreva("Todos estavam olhando")
+							AgurdLimpe(3500)
+
+							escreva("E viram o que Lucas tinha acabado de fazer")
+							AgurdLimpe(4500)
+
+							escreva("Ele tenta novamente sair dessa situação")
+							AgurdLimpe(4500)
+
+							escreva("E gira o ponteiro novamente em sentido horário")
+							AgurdLimpe(4500)
+
+                            	pare
+                            	caso contrario:escreva("Um assassino ou um inocente? O que você realmente é?")
+									AgurdLimpe(5000)
+
+                            	}
+                       	
+                       }enquanto(veneno<1 ou veneno>2)
+                       
+	           pare
+	           caso 2:escreva("\"Devo contar com a sorte, vou conseguir pegar o relógio de volta\"")
+                       AgurdLimpe(5000)
+
+escreva("Foi o que ele pensou")
+AgurdLimpe(4500)
+
+escreva("Ele entrega o relógio fechado para o viking")
+AgurdLimpe(4500)
+
+escreva("\"O que é isto?\"")
+AgurdLimpe(3500)
+
+escreva("Apenas fique, ele é muito valioso. Mas em hipótese alguma abra")
+AgurdLimpe(5000)
+
+escreva("Pois Odin ordenou que nunca abrisse este objeto")
+AgurdLimpe(5000)
+
+escreva("\"Mas é claro, talvez você até seja confiável\"")
+AgurdLimpe(4500)
+
+escreva("\"Já não posso dizer o mesmo de mim\"")
+AgurdLimpe(4500)
+
+escreva("\"Você achou mesmo que um ESTRANHO te daria um manto de lobo\"")
+AgurdLimpe(5000)
+
+escreva("\"Logo após você já entregar na mão dele algo MUITO valioso\"")
+AgurdLimpe(5000)
+
+escreva("\"Você tem que confiar menos em pessoas que você nem conhece\"")
+AgurdLimpe(5000)
+
+escreva("\"E aliás, lá fora nem está tão frio\"")
+AgurdLimpe(4500)
+
+escreva("Não precisa de um manto. Obrigado pelo item")
+AgurdLimpe(5000)
+
+escreva("Lucas fica chocado, pois foi enganado")
+AgurdLimpe(5000)
+
+escreva("Sem saber o que fazer, ele apenas fica paralisado ali")
+AgurdLimpe(5000)
+
+escreva("Vendo o grandalhão ir embora com sua única chance de voltar para casa")
+AgurdLimpe(5000)
+
+escreva("O ex-viajante acaba aprendendo a conviver no período")
+AgurdLimpe(5000)
+
+escreva("Ele vira um viking, e forma uma família")
+AgurdLimpe(5000)
+
+escreva("Embora ele procurasse o ladrão, nunca o encontrou")
+AgurdLimpe(5000)
+
+escreva("Felizmente ele ficou bem até os 60 anos")
+AgurdLimpe(5000)
+
+escreva("Mas quando Lucas pegou uma gripe...")
+AgurdLimpe(5000)
+vida=0
+morte()
+
+	           pare
+	           caso 3:escreva("\"Algum tempo atrás, eu consegui matar uma fera\"")
+AgurdLimpe(5000)
+
+escreva("\"Arranquei uma presa dela. E descobri algo muito interessante\"")
+AgurdLimpe(5000)
+
+escreva("\"Caso você morra com a presa em sua posse\"")
+AgurdLimpe(5000)
+
+escreva("\"Você irá ressuscitar no corpo dela\"")
+AgurdLimpe(5000)
+
+escreva("\"Ou se for uma pessoa muito forte\"")
+AgurdLimpe(4500)
+
+escreva("\"Poderá até mesmo voltar em seu corpo normal, com o poder da fera\"")
+AgurdLimpe(5000)
+
+escreva("\"Fique com ela, e me dê o manto\". Disse o rapaz")
+AgurdLimpe(5000)
+
+escreva("\"Mas é claro, talvez você até seja confiável\"")
+AgurdLimpe(4500)
+
+escreva("\"Já não posso dizer o mesmo de mim\"")
+AgurdLimpe(4500)
+
+escreva("\"Você achou mesmo que um ESTRANHO te daria um manto de lobo\"")
+AgurdLimpe(5000)
+
+escreva("\"Logo após você já entregar na mão dele algo MUITO valioso\"")
+AgurdLimpe(5000)
+
+escreva("\"Você tem que confiar menos em pessoas que você nem conhece\"")
+AgurdLimpe(5000)
+
+escreva("\"E aliás, lá fora nem está tão frio\"")
+AgurdLimpe(4500)
+
+escreva("Não precisa de um manto. Obrigado pelo item")
+AgurdLimpe(5000)
+
+escreva("Lucas percebe que foi enganado")
+AgurdLimpe(5000)
+
+escreva("Mas talvez aquilo não fosse algo ruim")
+AgurdLimpe(5000)
+
+escreva("Pois o bárbaro também foi")
+AgurdLimpe(4500)
+
+escreva("Em suas batalhas acharia que tem sempre uma segunda chance")
+AgurdLimpe(5000)
+
+escreva("Mas mal sabia ele que, se morresse, perderia sua única vida")
+AgurdLimpe(5000)
+
+	           pare
+	           caso contrario:escreva("Você não é burro, sabe como uma troca funciona")
+	           pare	
+                	}
+	     }enquanto(nordico<1 ou nordico>3)
+	
+	 }
+	         senao{
+	         		 	faca{
+	 		escreva("Ele diz ter um manto feito de pele de lobo, mas Lucas terá que comprar dele\n\n")
+	          escreva("[1] Não tenho nada para trocar\n")
+	          escreva("[2] Entregar o relógio\n\n")	
+	 	    	 leia(nordico)
+	 	    	 limpa()
+
+                escolha(nordico){
+                caso 1:escreva("\"Me desculpe, não tenho nada para trocar\"")
+                AgurdLimpe(5000)
+
+                escreva("\"Mas por favor, me dê o manto\"")
+                AgurdLimpe(5000)
+
+			escreva("\"Seu tolo, não é assim que as coisas funcionam por aqui\", disse o bárbaro")
+			AgurdLimpe(5000)
+
+			escreva("\"Mas pode fazer algo para mim\"")
+			AgurdLimpe(5000)
+
+			escreva("\"Sem ele perceber, você terá que colocar este veneno na bebida daquele velho ali\"")
+			AgurdLimpe(5000)
+
+			escreva("\"Caso consiga, o manto é seu\"")
+			AgurdLimpe(5000)
+
+                       faca{escreva("O que você ira fazer?\n\n")
+                            escreva("[1]Colocar\n")
+                            escreva("[2]Não colocar\n\n")
+                            leia(veneno)
+                            limpa()
+                            escolha(veneno){
+                            	caso 1:escreva("Cuidadosamente o rapaz se aproximou do senhor")
+							AgurdLimpe(3500)
+
+							escreva("Lucas sentou na mesa onde o velho estava")
+							AgurdLimpe(3500)
+
+							escreva("E logo colocou o veneno no copo")
+							AgurdLimpe(3500)
+
+							escreva("O senhor apenas percebeu Lucas sentado do seu lado. E puxou papo...")
+							AgurdLimpe(4500)
+
+							escreva("\"E aí jovem?\"")
+							AgurdLimpe(3500)
+
+                            	       
+                            	       faca{escreva("\"O que um garoto como você faz aqui nesse bar?\"\n\n")
+                            	            escreva("[1] Falar a verdade\n")
+                            	            escreva("[2] Mentir\n")
+                            	            escreva("[3] Falar do veneno\n\n")
+                            	            leia(velho)
+                            	            limpa()
+                            	            escolha(velho){
+                            	            	caso 1:escreva("Eu não sou daqui")
+										AgurdLimpe(3500)
+
+										escreva("Eu venho de um lugar que ainda nem existe")
+										AgurdLimpe(4500)
+
+										escreva("Mas graças a um objeto, posso ir para qualquer lugar")
+										AgurdLimpe(4500)
+
+										escreva("O senhor com um sorriso no canto do rosto disse:")
+										AgurdLimpe(4500)
+
+										escreva("Olha, eu já bebi demais hoje, mas acho que você passou dos limites")
+										AgurdLimpe(5000)
+
+										escreva("O velho pegou seu copo e deu seu último gole")
+										AgurdLimpe(4500)
+
+										escreva("Venha comigo garoto")
+										AgurdLimpe(3500)
+
+										escreva("Eu e meu filho temos um barraco")
+										AgurdLimpe(3500)
+
+										escreva("Não são grandes coisas, mas você pode passar um tempo lá")
+										AgurdLimpe(4500)
+
+										escreva("\"Mas por que fazer isso? Ainda mais para um estranho\". Disse o viajante")
+										AgurdLimpe(5000)
+
+										escreva("Você lembra meu outro filho. Ele morreu jovem, com quase sua idade")
+										AgurdLimpe(5000)
+
+										escreva("Ele era um jovem bom, mas se apaixou pela garota errada.")
+										AgurdLimpe(4500)
+
+										escreva("Isso levou a sua morte")
+										AgurdLimpe(3500)
+
+										escreva("Vejo a mesma bondade dele em você")
+										AgurdLimpe(4500)
+
+										escreva("Assim que se levantou, o velho caiu morto no chão")
+										AgurdLimpe(5000)
+
+										escreva("O filho do senhor chegou à taverna e viu seu pai caído no chão")
+										AgurdLimpe(5000)
+
+										escreva("\"O QUE ACONTECEU?\" disse o homem")
+										AgurdLimpe(3500)
+
+										escreva("O bárbaro que havia dado o veneno acusou Lucas")
+										AgurdLimpe(4500)
+
+										escreva("FOI ELE!!! Eu vi ele colocando um veneno no copo de seu pai")
+										AgurdLimpe(4500)
+
+										escreva("Lucas sem pensar duas vezes gira o ponteiro e sai daquela situação")
+										AgurdLimpe(5000)
+
+										escreva("\"O que foi que eu fiz?\". Pensa Lucas")
+										AgurdLimpe(4500)
+
+                            	            	       
+                            	            	pare
+                            	            	caso 2:escreva("\"Embora pareça, eu não sou um garoto\"")
+									AgurdLimpe(4500)
+
+									escreva("\"Já bebi muito mais que você nessa vida\"")
+									AgurdLimpe(4500)
+
+									escreva("\"Tenho que admitir...\"")
+									AgurdLimpe(3500)
+
+									escreva("\"As pessoas nesse bar não são nada perto do reino que estava antes\"")
+									AgurdLimpe(5000)
+
+									escreva("\"Mas mesmo assim devo brindar, por estarmos vivos\". Disse o viajante")
+									AgurdLimpe(5000)
+
+									escreva("O velho fez o brinde com Lucas e logo bebeu o veneno")
+									AgurdLimpe(4500)
+
+									escreva("\"Vai com calma rapaz\"")
+									AgurdLimpe(3500)
+
+									escreva("\"Nunca se esqueça de quem você realmente é\"")
+									AgurdLimpe(4500)
+
+									escreva("\"Eu já fui como você\"")
+									AgurdLimpe(4500)
+
+									escreva("Assim que se levantou, o velho caiu morto no chão")
+									AgurdLimpe(5000)
+
+									escreva("O filho do senhor chegou à taverna e viu seu pai caído no chão")
+									AgurdLimpe(5000)
+
+									escreva("\"O QUE ACONTECEU?\" disse o homem")
+									AgurdLimpe(3500)
+
+									escreva("O bárbaro que havia dado o veneno acusou Lucas")
+									AgurdLimpe(4500)
+
+									escreva("FOI ELE!!! Eu vi ele colocando um veneno no copo de seu pai")
+									AgurdLimpe(4500)
+
+									escreva("Lucas sem pensar duas vezes gira o ponteiro e sai daquela situação")
+									AgurdLimpe(5000)
+
+									escreva("\"O que foi que eu fiz?\". Pensa Lucas")
+									AgurdLimpe(4500)
+
+                            	            	pare
+                            	            	caso 3:escreva("\"Na verdade estou perdido\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Não sei o que ainda estou fazendo aqui\"")
+										AgurdLimpe(4500)
+
+										escreva("\"E por que faço as coisas que faço\"")
+										AgurdLimpe(4500)
+
+										escreva("Quando o velho acaba de escutar, pega seu copo e leva em direção à boca")
+										AgurdLimpe(5000)
+
+										escreva("\"ESPERA!!!\"")
+										AgurdLimpe(3500)
+
+										escreva("\"Não beba isto! Aquele cara mandou eu colocar um veneno em seu copo\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Este homem não presta\". Disse o velho")
+										AgurdLimpe(4500)
+
+										escreva("\"A mulher dele havia se apaixonado por outro cara\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Meu filho\"")
+										AgurdLimpe(3500)
+
+										escreva("\"Ele descobriu que os dois se amavam\"")
+										AgurdLimpe(4500)
+
+										escreva("\"E sumiu com os dois\"")
+										AgurdLimpe(4500)
+
+										escreva("\"Não bastando matar meu menino, ele quer me matar também\"")
+										AgurdLimpe(5000)
+
+										escreva("\"Parece que a vingança dele nunca vai acabar\"")
+										AgurdLimpe(4500)
+
+										escreva("O viajante decide confrontar o viking")
+										AgurdLimpe(4500)
+
+										escreva("Ele pega seu relógio, pressiona o ponteiro e encosta no bárbaro")
+										AgurdLimpe(5000)
+
+										escreva("Assim, quando ele se afasta e solta o ponteiro")
+										AgurdLimpe(4500)
+
+										escreva("Apenas o viking continua congelado no tempo")
+										AgurdLimpe(4500)
+
+										escreva("Lucas olha para o velho e diz...")
+										AgurdLimpe(3500)
+
+										escreva("\"Pronto, ele nunca mais fará mal a ninguém novamente\"")
+										AgurdLimpe(4500)
+
+                            	            	pare
+                            	            	caso contrario:escreva("\"Eu estou confuso, não consigo responder a essa simples pergunta\"")
+                                                            AgurdLimpe(5000)
+
+                            	            	pare
+                            	            	}
+                            	            
+                            	       }enquanto(velho<1 ou velho>3)
+                            	       
+                            	pare
+                            	caso 2: escreva("\"Não irei fazer isto, eu sou uma pessoa boa\"")
+                                   AgurdLimpe(5000)
+
+							escreva("\"Você é burro, isso sim\". Disse o viking que logo lhe acertou com um soco")
+							AgurdLimpe(5000)
+
+							escreva("Com raiva Lucas se levanta.")
+							AgurdLimpe(4500)
+
+							escreva("Fecha sua mão que segura o relógio")
+							AgurdLimpe(4500)
+
+							escreva("E devolve o soco no viking")
+							AgurdLimpe(4500)
+
+							escreva("Agora com medo do que o bárbaro poderá fazer com ele")
+							AgurdLimpe(5000)
+
+							escreva("Lucas gira o ponteiro em sentido horário")
+							AgurdLimpe(4500)
+
+							escreva("MAS O QUE?!!!")
+							AgurdLimpe(3500)
+
+							escreva("O grandalhão ficou velho, parecia que havia se passado décadas para ele")
+							AgurdLimpe(5000)
+
+							escreva("Na verdade, ao invés do técnico viajar no tempo")
+							AgurdLimpe(5000)
+
+							escreva("Ele fez com que o bruto envelhecesse em segundos")
+							AgurdLimpe(5000)
+
+							escreva("Com a troca de socos que tinham feito na taverna")
+							AgurdLimpe(4500)
+
+							escreva("Todos estavam olhando")
+							AgurdLimpe(3500)
+
+							escreva("E viram o que Lucas tinha acabado de fazer")
+							AgurdLimpe(4500)
+
+							escreva("Ele tenta novamente sair dessa situação")
+							AgurdLimpe(4500)
+
+							escreva("E gira o ponteiro novamente em sentido horário")
+							AgurdLimpe(4500)
+
+                            	pare
+                            	caso contrario:escreva("Um assassino ou um inocente? O que você realmente é?")
+									AgurdLimpe(5000)
+
+                            	}
+                       	
+                       }enquanto(veneno<1 ou veneno>2)
+                       
+	           pare
+	           caso 2:escreva("\"Devo contar com a sorte, vou conseguir pegar o relógio de volta\"")
+                       AgurdLimpe(5000)
+
+escreva("Foi o que ele pensou")
+AgurdLimpe(4500)
+
+escreva("Ele entrega o relógio fechado para o viking")
+AgurdLimpe(4500)
+
+escreva("\"O que é isto?\"")
+AgurdLimpe(3500)
+
+escreva("Apenas fique, ele é muito valioso. Mas em hipótese alguma abra")
+AgurdLimpe(5000)
+
+escreva("Pois Odin ordenou que nunca abrisse este objeto")
+AgurdLimpe(5000)
+
+escreva("\"Mas é claro, talvez você até seja confiável\"")
+AgurdLimpe(4500)
+
+escreva("\"Já não posso dizer o mesmo de mim\"")
+AgurdLimpe(4500)
+
+escreva("\"Você achou mesmo que um ESTRANHO te daria um manto de lobo\"")
+AgurdLimpe(5000)
+
+escreva("\"Logo após você já entregar na mão dele algo MUITO valioso\"")
+AgurdLimpe(5000)
+
+escreva("\"Você tem que confiar menos em pessoas que você nem conhece\"")
+AgurdLimpe(5000)
+
+escreva("\"E aliás, lá fora nem está tão frio\"")
+AgurdLimpe(4500)
+
+escreva("Não precisa de um manto. Obrigado pelo item")
+AgurdLimpe(5000)
+
+escreva("Lucas fica chocado, pois foi enganado")
+AgurdLimpe(5000)
+
+escreva("Sem saber o que fazer, ele apenas fica paralisado ali")
+AgurdLimpe(5000)
+
+escreva("Vendo o grandalhão ir embora com sua única chance de voltar para casa")
+AgurdLimpe(5000)
+
+escreva("O ex-viajante acaba aprendendo a conviver no período")
+AgurdLimpe(5000)
+
+escreva("Ele vira um viking, e forma uma família")
+AgurdLimpe(5000)
+
+escreva("Embora ele procurasse o ladrão, nunca o encontrou")
+AgurdLimpe(5000)
+
+escreva("Felizmente ele ficou bem até os 60 anos")
+AgurdLimpe(5000)
+
+escreva("Mas quando Lucas pegou uma gripe...")
+AgurdLimpe(5000)
+vida=0
+morte()
+
+	           pare
+	           
+	           caso contrario:escreva("Você não é burro, sabe como uma troca funciona")
+	           pare	
+                }
+	               }enquanto(nordico<1 ou nordico>2)
+	         }
+	
+	}
+
+	funcao 
+Renascimento(){
+		inteiro garota
+		inteiro teimosa
+	     inteiro cafeDaTarde
+    inteiro mexer
+    
+		
+		escreva("Estranhamente nesse período ele está no centro de uma cidade magnífica")
+AgurdLimpe(5000)
+
+escreva("Onde as pessoas estão mais parecidas com o mundo moderno")
+AgurdLimpe(5000)
+
+escreva("Sem roupas egípcias, e sem todos aqueles brutos")
+AgurdLimpe(5000)
+
+escreva("Ele pergunta para uma mulher")
+AgurdLimpe(4000)
+
+escreva("\"Onde estou?\"")
+AgurdLimpe(3500)
+
+escreva("\"Mas como assim? Você está em Florença\"")
+AgurdLimpe(5000)
+
+escreva("\"Essa cidade é linda por ter seus inúmeros pintores\" Disse a garota")
+AgurdLimpe(5000)
+
+escreva("\"Nossa! Você parece mesmo ser apaixonada por esse lugar\"")
+AgurdLimpe(5000)
+
+escreva("\"Me chamo Luc... Luke\"")
+AgurdLimpe(4500)
+
+escreva("\"Prazer Luke, eu sou Aurora\"")
+AgurdLimpe(4500)
+
+		faca{
+		     escreva("\"O que era aquilo em sua mão?\" Questiona Aurora\n\n")
+		     escreva("[1] Falar do relógio\n")
+		     escreva("[2] Mentir\n")
+		     escreva("[3] Mudar de assunto\n\n")
+		     leia(garota)
+		     limpa()
+		     escolha(garota){
+		     	caso 1:escreva("\"Era um relógio, nada de mais\"")
+				AgurdLimpe(4000)
+
+		     	pare
+		     	caso 2:escreva("\"Era uma pedra. Uma pedra muito especial para mim\"")
+					AgurdLimpe(5000)
+		     	       
+		     	       faca{
+		     	       	escreva("\"Posso ver?\"\n\n")
+		     	       	escreva("[1] Sim\n")
+		     	       	escreva("[2] Não\n\n")
+		     	       	leia(teimosa)
+		     	       	limpa()
+		     	       	escolha(teimosa){
+		     	       		caso 1:escreva("\"Na verdade não é uma pedra\"")
+AgurdLimpe(5000)
+
+escreva("\"É apenas um relógio\"")
+AgurdLimpe(4500)
+
+escreva("Olhe!")
+AgurdLimpe(3500)
+
+escreva("Que bonito!")
+AgurdLimpe(3500)
+
+		     	       		pare
+		     	       		caso 2:escreva("\"Não precisa ser grosso\"")
+AgurdLimpe(4000)
+
+		     	       		pare
+		     	       		caso contrario:escreva("Está com dificuldade para responder? Tire no cara ou coroa")
+AgurdLimpe(5000)
+
+		     	       		pare
+		     	       		}
+		     	       	
+		     	       }enquanto(teimosa<1 ou teimosa>2)
+		     	pare
+		     	caso 3:escreva("\"Você sabe onde eu posso comer alguma coisa? Estou faminto\"")
+AgurdLimpe(5000)
+
+		     	pare
+		     	caso contrario:escreva("Você não quer parecer um paspalhão na frente da dama, não é mesmo?")
+AgurdLimpe(5000)
+
+		     	pare
+		     	}
+	     }enquanto(garota<1 ou garota>4)
+	     
+		faca{
+		escreva("\"Quer vir para minha casa?\" Diz Aurora\n\n")
+		escreva("[1] Sim\n")
+		escreva("[2] Não\n\n")
+		leia(casa)
+		limpa()
+
+		escolha(casa){
+
+			caso 1: escreva("\"Claro, espero que tenha algo para comer\"")
+AgurdLimpe(5000)
+
+escreva("\"Você acha que eu não tenho comida em casa Luke?\"")
+AgurdLimpe(5000)
+
+escreva("*Risos")
+AgurdLimpe(3000)
+
+escreva("...")
+AgurdLimpe(3000)
+
+escreva("Na casa de Aurora, ela diz para Luke de sentar")
+AgurdLimpe(5000)
+
+escreva("E esperar ali enquanto ela vai buscar algo na cozinha")
+AgurdLimpe(5000)
+
+escreva("Ah")
+AgurdLimpe(3000)
+
+escreva("Lucas, você gosta de pão?")
+AgurdLimpe(4500)
+
+escreva("Sim, gosto")
+AgurdLimpe(3500)
+
+escreva("Meu pão é o melhor da Itália, já volto")
+AgurdLimpe(5000)
+
+			        
+			        faca{
+			        	 escreva("Lucas...\n\n")
+			        	 escreva("[1] Espera\n")
+			        	 escreva("[2] Vasculha\n\n")
+			        	 leia(cafeDaTarde)
+			        	 limpa()
+			        	 
+			           escolha(cafeDaTarde){
+ 
+			           caso 1: escreva("Lucas espera Aurora")
+AgurdLimpe(4500)
+
+escreva("Pensando em como a garota estava sendo legal com ele")
+AgurdLimpe(5000)
+
+			           pare
+			         	 caso 2: escreva("Lucas sai da mesa e vai procurar algo")
+AgurdLimpe(5000)
+
+                          enquanto(enxerido<5){
+                          escreva("[1] Procurar algo\n")
+                          escreva("[2] Parar\n\n")
+                          leia(mexer)
+                          limpa()
+                             se(mexer==1 e enxerido==0){
+                             	escreva("Ele olha em uma estante")
+AgurdLimpe(4000)
+
+escreva("Nela havia uma folha que tinha algo escrito")
+AgurdLimpe(5000)
+
+escreva("\"Não se desespere querida\"")
+AgurdLimpe(5000)
+
+escreva("\"Sei que ficará bem\"")
+AgurdLimpe(5000)
+
+escreva("\"Saiba que enquanto você tiver ele\"")
+AgurdLimpe(5000)
+
+escreva("\"Você sempre estará onde quiser\"")
+AgurdLimpe(5000)
+
+escreva("\"Cuide com amor este...\"")
+AgurdLimpe(5000)
+
+escreva("O resto da folha estava rasgado")
+AgurdLimpe(5000)
+
+
+                              mexer=0
+                             	enxerido++
+                             }
+                             se(mexer==1 e enxerido==1){
+                             	escreva("Ele confere de baixo da mesa")
+AgurdLimpe(4000)
+
+escreva("Vê marcas de tiro no chão")
+AgurdLimpe(4000)
+
+escreva("O que será que aconteceu?")
+AgurdLimpe(4000)
+
+                             	enxerido++
+                             	mexer=0
+                             }
+                             se(mexer==1 e enxerido==2){
+                             escreva("Ele coloca a mão em um jarro")
+AgurdLimpe(4000)
+
+escreva("Quando descobre uma arma dentro dele")
+AgurdLimpe(4000)
+
+escreva("Um REVÓLVER precisamente")
+AgurdLimpe(4000)
+
+escreva("Ao conferir a data em seu relógio")
+AgurdLimpe(4500)
+
+escreva("Percebe que a arma ainda nem foi criada")
+AgurdLimpe(4000)
+
+escreva("Já que a data onde estava era 16/06/1506")
+AgurdLimpe(4000)
+
+                             	enxerido++
+                             	mexer=0
+                             }
+                             se(mexer==1 e enxerido==3){
+                             	escreva("Lucas é acertado na cabeça")
+AgurdLimpe(5000)
+
+escreva("quando acorda, está amarrado")
+AgurdLimpe(5000)
+
+escreva("Lucas ainda tonto com a paulada vê Aurora e ela diz...")
+AgurdLimpe(5500)
+
+escreva("\"A parte mais difícil foi manter o disfarce\"")
+AgurdLimpe(5000)
+
+escreva("\"Saiba Lucas, esse relógio estará mais seguro comigo\"")
+AgurdLimpe(5000)
+
+escreva("\"Você até que fez bem se distraindo\"")
+AgurdLimpe(5000)
+
+escreva("Lucas percebe que Aurora também sabe do relógio")
+AgurdLimpe(5000)
+
+escreva("Ela parecia estar presa ali naquele tempo")
+AgurdLimpe(5000)
+
+escreva("Ele então pede para ela esperar, mas então...")
+AgurdLimpe(4500)
+
+
+escreva("Ela gira o ponteiro e vai embora")
+AgurdLimpe(4500)
+
+escreva("Lucas infelizmente aprende a conviver naquele período")
+AgurdLimpe(5000)
+
+escreva("Se torna um grande pintor")
+AgurdLimpe(4500)
+
+escreva("Mas é assassinado tempo depois devido suas obras")
+AgurdLimpe(5500)
+
+enxerido++
+
+vida=0
+morte()
+                             	pare
+                             }
+                             se(mexer==2){
+                             	escreva("Lucas decide parar de procurar antes que Aurora veja")
+AgurdLimpe(5000)
+
+                              pare	
+                             }
+                             
+                          }
+			         	         
+			         	         
+			         	         
+			           pare
+			         	 caso contrario: escreva("Lucas é muito indeciso perto de garotas")
+AgurdLimpe(5000)
+
+escreva("Ele fica bobão")
+AgurdLimpe(4000)
+
+			           pare
+		             }
+
+		             }enquanto(cafeDaTarde<1 ou cafeDaTarde>2)
+		             escreva("Aurora chega com pão e chá")
+AgurdLimpe(5000)
+
+escreva("\"Aproveite enquanto ainda está morno\"")
+AgurdLimpe(4500)
+
+escreva("\"Depois que o chá esfriar não estará bom\"")
+AgurdLimpe(5000)
+faca{escreva("[1] Tomar o café da tarde\n")
+     escreva("[2] Ir embora\n")
+     escreva("[3] Questionar\n\n")
+     leia(cha)
+     limpa()
+     escolha(cha){
+
+			caso 1: escreva("Lucas bebe o chá")
+AgurdLimpe(4000)
+
+escreva("Alguns minutos depois fica com sono")
+AgurdLimpe(4500)
+
+escreva("Aurora diz para ele se deixar um pouco")
+AgurdLimpe(5000)
+
+escreva("O viajante então decide relaxar e vai se deitar")
+AgurdLimpe(5000)
+
+escreva("Quando acorda, já é de manhã")
+AgurdLimpe(4000)
+
+escreva("\"Aurora?\"")
+AgurdLimpe(3500)
+
+escreva("\"Aurora você está aí?\"")
+AgurdLimpe(4000)
+
+escreva("\"AURORA!\"")
+AgurdLimpe(4500)
+
+escreva("Ele não encontra seu relógio de bolso")
+AgurdLimpe(5000)
+
+escreva("Então Lucas percebe que foi enganado")
+AgurdLimpe(5000)
+
+escreva("Alguns homens chegam na casa de Aurora")
+AgurdLimpe(4500)
+
+escreva("E perguntam pela ladra de pinturas")
+AgurdLimpe(4500)
+
+escreva("Lucas diz não conhecer ela")
+AgurdLimpe(4000)
+
+escreva("Mas antes de entrarem na casa eles puderam ouvir Lucas a chamando")
+AgurdLimpe(5000)
+
+escreva("Sem acreditarem, os homens levam Lucas")
+AgurdLimpe(4500)
+
+escreva("Ele é condenado a fogueira em praça pública")
+AgurdLimpe(5000)
+
+escreva("Por ser cúmplice e por todos os crimes de Aurora")
+AgurdLimpe(5000)
+
+			pare
+			caso 2: escreva("\"Preciso ir\" Disse Lucas")
+AgurdLimpe(5000)
+
+escreva("A garota agarra em seu braço e Lucas a empurra")
+AgurdLimpe(5000)
+
+escreva("Com uma voz brava ela diz:")
+AgurdLimpe(4500)
+
+escreva("\"Você não sabe onde está se metendo\"")
+AgurdLimpe(5000)
+
+escreva("\"Cada vez que você usa ele, você muda alguma coisa\"")
+AgurdLimpe(5000)
+
+escreva("\"Muda você, muda o futuro, mu...\"")
+AgurdLimpe(5000)
+
+escreva("\"O que você está falando? Pergunta o viajante\"")
+AgurdLimpe(5000)
+
+escreva("Quando ela vai para cima dele ele pega o relógio e gira")
+AgurdLimpe(5500)
+			pare
+			
+			caso 3:escreva("Eu reparei quando você me chamou de Lucas")
+AgurdLimpe(4500)
+                se(enxerido==1){
+                	escreva("Aquela folha, de quem era e o que está faltando?")
+AgurdLimpe(5000)
+
+escreva("Aurora corre pegar sua arma")
+AgurdLimpe(4000)
+
+escreva("Ela pega seu revólver e atira em Lucas")
+AgurdLimpe(4500)
+
+escreva("Mas Lucas mais rápido gira o ponteiro")
+AgurdLimpe(5000)
+
+escreva("Ele sente uma dor no peito")
+AgurdLimpe(4500)
+
+escreva("O técnico não conseguiu ser mais rápido que a bala")
+AgurdLimpe(5000)
+
+escreva("Estando em uma embarcação")
+AgurdLimpe(4000)
+
+escreva("Os passageiros tentam socorrer Lucas, mas...")
+AgurdLimpe(5000)
+
+vida=0
+morte()
+                }
+                se(enxerido==2){escreva("Aquela folha, de quem era e o que está faltando?")
+AgurdLimpe(5000)
+
+escreva("Por que tem marcas de bala no chão da sua casa?")
+AgurdLimpe(5000)
+
+escreva("Aurora corre pegar sua arma")
+AgurdLimpe(4000)
+
+escreva("Ela pega seu revólver e atira em Lucas")
+AgurdLimpe(4500)
+
+escreva("Mas Lucas mais rápido gira o ponteiro")
+AgurdLimpe(5000)
+
+escreva("Ele sente uma dor no peito")
+AgurdLimpe(4500)
+
+escreva("O técnico não conseguiu ser mais rápido que a bala")
+AgurdLimpe(5000)
+
+escreva("Estando em uma embarcação")
+AgurdLimpe(4000)
+
+escreva("Os passageiros tentam socorrer Lucas, mas...")
+AgurdLimpe(5000)
+
+vida=0
+morte()
+                	
+                	}
+
+                	se(enxerido==3){escreva("Aquela folha, de quem era e o que está faltando?")
+AgurdLimpe(5000)
+
+escreva("Por que tem marcas de bala no chão da sua casa?")
+AgurdLimpe(5000)
+
+escreva("Aurora corre pegar sua arma")
+AgurdLimpe(4000)
+
+escreva("Ela coloca a mão no jarro, mas não encontra nada")
+AgurdLimpe(4000)
+
+escreva("\"Está procurando isso?\" diz Lucas, que agora aponta a arma para ela")
+AgurdLimpe(4500)
+
+escreva("A garota começa a se explicar:")
+AgurdLimpe(3000)
+
+escreva("Você não entende")
+AgurdLimpe(3500)
+
+escreva("Eu já fui como você")
+AgurdLimpe(4000)
+
+escreva("Eu sou de Nova York, do ano 2016")
+AgurdLimpe(4500)
+
+escreva("Um dia esse relógio chegou nas minhas mãos de alguma maneira")
+AgurdLimpe(5000)
+
+escreva("E eu nem isso consigo me lembrar")
+AgurdLimpe(4500)
+
+escreva("A única coisa que tenho é aquele papel")
+AgurdLimpe(4500)
+
+escreva("Me lembro de deixar essa coisa cair no chão e quebrar")
+AgurdLimpe(5000)
+
+escreva("Aí tudo em minha volta sumiu por um instante")
+AgurdLimpe(4500)
+
+escreva("E vim parar aqui")
+AgurdLimpe(4000)
+
+escreva("\"Eu realmente acredito em você, mas para que a arma? Não podia simplesmente pedir para vir junto?\"")
+AgurdLimpe(5000)
+
+escreva("Aurora já louca, pois sua chance de ir para casa estava bem em sua frente, pula para cima dele")
+AgurdLimpe(5000)
+
+escreva("\"ME DÁ ISSO AQUI!!!\"")
+AgurdLimpe(4500)
+
+escreva("No reflexo, Lucas puxa o gatilho")
+AgurdLimpe(5000)
+
+escreva("Chocado com o que havia feito, ele solta a arma e gira o ponteiro")
+AgurdLimpe(5000)
+
+                	
+                	}
+                
+
+			pare
+			
+			caso contrario: escreva("Ele espera um pouco para responder")
+			escreva("Ele não pensa bem de barriga vazia")
+			escreva("Coitado")
+			pare
+		}
+
+		}enquanto(cha<1 ou cha>3)
+			pare
+			caso 2: escreva("\"Preciso ir\" Disse Lucas")
+AgurdLimpe(5000)
+
+escreva("A garota agarra em seu braço e Lucas a empurra")
+AgurdLimpe(5000)
+
+escreva("Com uma voz brava ela diz:")
+AgurdLimpe(4500)
+
+escreva("\"Você não sabe onde está se metendo\"")
+AgurdLimpe(5000)
+
+escreva("\"Cada vez que você usa ele, você muda alguma coisa\"")
+AgurdLimpe(5000)
+
+escreva("\"Muda você, muda o futuro, mu...\"")
+AgurdLimpe(5000)
+
+escreva("\"O que você está falando? Pergunta o viajante\"")
+AgurdLimpe(5000)
+
+escreva("Quando ela vai para cima dele ele pega o relógio e gira")
+AgurdLimpe(5500)
+
+			pare
+			caso contrario: escreva("Uma garota te convida para casa dela e você não sabe responder?")
+AgurdLimpe(5000)
+
+			pare
+		}
+
+		}enquanto(casa<1 ou casa>2)
+		 
+		
+	 }
+
+
+	 funcao Titanic(){
+	 	inteiro barco
+		escreva("Agora o viajante se encontra em uma embarcação")
+AgurdLimpe(4000)
+
+    escreva("                                                                        MM##########                              ..    MM..\n")
+    escreva("                                                                      ##@@##########                                  ..##  ..\n")
+    escreva("                                                        MM            @@@@##########                              ++    ##\n")
+    escreva("                                                                      ##@@##########                          ..      ..@@  ..\n")
+    escreva("                                                                      --@@@@..++MM##..                          ::    ::mm    ..\n")
+    escreva("                                                                            --mmMM  @@                            ....++mm\n")
+    escreva("                                                                          ..--++MM..##                        ::      ++mm::  --\n")
+    escreva("                                                    ##########            ::--::##MM@@  ..              ..      ::    ++mm++  ::..\n")
+    escreva("                                          ..      @@##########            ++::..++##MM                      --        --mmmm\n")
+    escreva("                                                  @@##########      ..    --....::@@MM                        ::  ..    MM..    ..\n")
+    escreva("                              MM--##              ##@@--++MM@@            ......::MM@@                      ..          ##      ::    ..\n")
+    escreva("                                          ####    MM  ..MMMM##..        MM..--::++MM##..  ..                ::          ##        ..\n")
+    escreva("                      --              MM######MM  --    ++MMmm::        ##++....++MMmm++        ..        --            ++  ..      --  --\n")
+    escreva("                      --              mm####  ##      @@--MM--##      ..  ::....++MM  ##..            --  ::    ..      ....--    ::\n")
+    escreva("                      MM              ++##@@####      ....++++@@--      mm..--++++##++##..@@--++      ..--                mm          ::  --\n")
+    escreva("                      --        ..    ::::::MMMM    MM--..++##MM            ++++..    ..  ::--      ..  ++            --    ..\n")
+    escreva("                  MM@@##@@@@########  mm::::MMMM    ..::::MM##::  ++--      @@  --    --  mmmm  MM  --    ..  ##      ..    MM          ..\n")
+    escreva("                      ..    @@####@@  MM::::mmMM    MM++::                                ::          mm  ++####            ##      --        mm##\n")
+    escreva("                      ..++  @@##@@##  --  --++MM  ..::++--                ::@@######@@MMMMmmMM@@####@@--                ++##  --          ##  --##\n")
+    escreva("                      ..    mm..  mm--    --++++    MM++++++mm@@########@@@@++mmmm++++##::@@--++##########              ++mm            ..MM\n")
+    escreva("                        ----mmMMmmMMMM  ::::++mm  ..##mmMMmmMM##MMMM########++                          MM##            ++mm          @@  ..    @@\n")
+    escreva("                    ..  @@  ..--..MMMM    ::++@@  ##  ::##                          ++          ++mm    ------------::    mm    ##        ++\n")
+    escreva("                        ##  MM....MMMM      ++mm    MM  MM######          ::####@@mm++++++++++++MM++++++++mm####::----  @@..              @@##@@\n")
+    escreva("                        ##    ::++MM##::::      ##  ##@@++####    --####@@@@####++++@@--mm++##MMMMMMMMMMmm####@@@@      @@          ########++mm\n")
+    escreva("                  ..    ##  --  ++  --##  @@@@  ##  ++mm++      ::@@####::            ##::  MM##mm##..##      ##  ##      ..################  mm--\n")
+    escreva("                        ##..++----##  ....  @@mm++::      @@######--                @@####@@##--  ..####::        ##########################  --\n")
+    escreva("                        ##    --  ::  mmMMMM++@@      ##++  MM    ..  ::@@############      ..##        ++##############@@--################--::\n")
+    escreva("                    ::--  MM  ##  ..++++++--    ##@@    MM      ##############    ::    ..    ..######################@@##::##################@@mm\n")
+    escreva("                    ##::  MM  ##++++MM    ..##++  mm        ##++##  ++++++MM++        @@################################::::--##############MM####\n")
+    escreva("                ++##--  ..##mm....    ####  ::            ++        ##mm####################################@@##############++++############::##MM\n")
+    escreva("              --##  ##::mm@@    ####::--            ::        @@++++++######################@@####MMMM######################################++mm\n")
+    escreva("            --  ####@@    MMmm::::      ....  --        ##MM++++@@############@@##########MM################################################MM\n")
+    escreva("              ##    @@++..++        --::        ..@@##MM++MM############################################################################@@##\n")
+    escreva("            ::##::##::      ++++          ##++++++++####################################################################################MM##\n")
+    escreva("            MMmm  --++..        mm@@++++++++############################################################################################MMmm\n")
+    escreva("            ##..      @@MM++++++++########################@@####################################################################MMmm####MM++\n")
+    escreva("            mmmm++mm@@##@@####################mmMM######################################################################################MM++\n")
+    escreva("            --##################MM++########################################################..##############@@##########################MM++\n")
+    escreva("              ########################################################################            @@######################################MM\n")
+    escreva("                ########################################################@@############  ....@@@@@@@@::@@####@@##################@@##########\n")
+    escreva("                ####################################MMmm@@########################    ....@@@@@@@@@@@@@@  ##@@##################@@##########\n")
+    escreva("                  ##############################################@@##########      ....++@@++@@@@@@@@@@@@..##++##################@@##########\n")
+    escreva("                    ##    ################################################        ..@@mm++mm@@@@MM@@@@@@@@++....@@##############@@##########\n")
+    escreva("                ++  ++      ##  ##  ####################@@############MM    ##@@++@@++mm++++++++MM@@@@@@@@----        --MM######@@##########++\n")
+    escreva("  ............    ++MM++MM##++++++++++..MM@@MM@@########@@##          --##############++++++++::--::@@mm::@@..      ..    ######@@##########++++    ..........\n")
+    escreva("  ..............--++mm++++++::::::::::::::::::----@@--  --MM::    ..::::------::++++++++++++++++++::::::::++++++++::++mmmmmmMMMMMMMMMMMM@@@@MMMMMMMMMMMMmmmmmm--\n")
+    AgurdLimpe(5000)
+
+escreva("Antes de tudo, confere a data em seu relógio")
+AgurdLimpe(4500)
+
+escreva("13/04/1912")
+AgurdLimpe(4000)
+
+escreva("\"Que maravilha, sempre mais perto do meu tempo, mas nunca nele\"")
+AgurdLimpe(5000)
+
+faca{escreva("Determinado ele...\n\n")
+     escreva("[1] Gira o ponteiro novamente\n")
+     escreva("[2] Explora o local\n\n")
+     leia(barco)
+     limpa()
+
+     escolha(barco){
+
+			caso 1: escreva("Ele não desiste")
+AgurdLimpe(4000)
+
+escreva("Lembra que seu objetivo é voltar para casa")
+AgurdLimpe(5000)
+
+escreva("Assim, ele avança no tempo")
+AgurdLimpe(4500)
+			pare
+			caso 2: escreva("Mais uma vez, investiga o território")
+AgurdLimpe(4000)
+
+escreva("\"Onde estou?\" pergunta a um rapaz")
+AgurdLimpe(5000)
+
+escreva("\"No Titanic, seu imbecil. Não era aqui que deveria estar?\" responde e pergunta o tripulante")
+AgurdLimpe(6000)
+
+escreva("\"Claro! Não foi à toa que eu embarquei\"")
+AgurdLimpe(5000)
+
+escreva("Em seus pensamentos, Lucas lembra desesperado o que realmente aconteceu com o Titanic no dia seguinte")
+AgurdLimpe(7000)
+
+escreva("Deveria ser ele o salvador daquelas pessoas, ou apenas deixar acontecer o que tem que acontecer?")
+AgurdLimpe(6000)
+
+faca{
+escreva("Lucas reflete por um tempo sobre sua decisão\n\n")
+escreva("[1] Salvar\n")
+escreva("[2] Ignorar\n\n")
+leia(Salvador)
+limpa()
+escolha(Salvador){
+
+			caso 1: escreva("Ele primeiramente procura o capitão")
+AgurdLimpe(4000)
+
+escreva("Para avisar de que dobrasse a segurança em alto mar")
+AgurdLimpe(4000)
+
+escreva("Principalmente para não bater em alguma coisa")
+AgurdLimpe(4000)
+
+escreva("Ele encontra Eduardo")
+AgurdLimpe(4000)
+
+escreva("O capitão diz já ter a segurança de que precisam")
+AgurdLimpe(4000)
+
+escreva("Nada poderia afundar o navio")
+AgurdLimpe(4000)
+
+escreva("Lucas então começa a falar como um viajante no tempo, e os acontecimentos cronológicos")
+AgurdLimpe(5000)
+
+escreva("\"10 de Abril de 1912 o Titanic sai da Inglaterra em destino a Nova Iorque\"")
+AgurdLimpe(4500)
+
+escreva("\"Mas às 23:40 do dia 14 o Titanic colide com um iceberg\"")
+AgurdLimpe(4500)
+
+escreva("\"Por volta de três horas depois o navio afunda, na madrugada do dia 15\"")
+AgurdLimpe(5000)
+
+escreva("O capitão não tolera que por erro seu o navio iria afundar")
+AgurdLimpe(4500)
+
+escreva("Ele dá as costas para Lucas mas fica com uma pulga atrás da orelha")
+AgurdLimpe(4700)
+
+escreva("O técnico sente que conseguiu o que queria")
+AgurdLimpe(4000)
+
+escreva("Pois agora o capitão possui as horas dos acontecimentos")
+AgurdLimpe(4500)
+
+escreva("Mesmo que tendo chance do navio afundar, ele decide esperar ali")
+AgurdLimpe(4600)
+
+escreva("Pois se desse errado, era apenas ele dar um salto no tempo")
+AgurdLimpe(4500)
+
+escreva("Tempo depois...")
+AgurdLimpe(3500)
+
+escreva("Felizmente a embarcação chega ao seu destino")
+AgurdLimpe(4000)
+
+escreva("O viajante pensa se o que mudou ali poderia ser mesmo sua interferência")
+AgurdLimpe(4700)
+
+escreva("Mas será que isso realmente mudou para melhor?")
+AgurdLimpe(4000)
+
+escreva("MAS É OBVIO!!!")
+AgurdLimpe(3500)
+
+escreva("Milhares de pessoas sobreviveram")
+AgurdLimpe(4000)
+
+escreva("Feliz com o que havia feito")
+AgurdLimpe(4000)
+
+escreva("Ele tenta mais uma vez voltar para o seu tempo")
+AgurdLimpe(4000)
+
+			pare
+			caso 2: escreva("Não posso fazer isso")
+AgurdLimpe(4000)
+
+escreva("Eu sei o que acontece se eu não avisar")
+AgurdLimpe(4000)
+
+escreva("Mas não sei o que acontece se eu avisar")
+AgurdLimpe(4000)
+
+escreva("Infelizmente o melhor que faço é deixar acontecer")
+AgurdLimpe(4500)
+
+escreva("Sem querer se apegar a alguma coisa ali")
+AgurdLimpe(4000)
+
+escreva("Ou ter a chance de perder sua única maneira de voltar para casa")
+AgurdLimpe(5000)
+
+escreva("Ele sai dali com um peso na consciência")
+AgurdLimpe(4000)
+
+escreva("Mas que é aliviado pelo fato de não ser o causador direto daquilo")
+AgurdLimpe(5000)
+
+escreva("Tendo a chance de salvar, ele se torna o culpado ou não?")
+AgurdLimpe(4500)
+
+			pare
+			caso contrario: escreva("Você não tem muito tempo para pensar, até por que...")
+AgurdLimpe(5000)
+
+			pare
+		}
+}enquanto(Salvador<1 ou Salvador>2)
+
+
+			pare
+			caso contrario: escreva("Determinado, ele fica ali sentindo a brisa do mar")
+AgurdLimpe(4500)
+
+escreva("A única coisa boa que aconteceu com ele até agora")
+AgurdLimpe(5000)
+
+			pare
+		}
+
+
+		}enquanto(barco<1 ou barco>2)
+		}
+
+		funcao deVolta(){
+			inteiro loop
+			escreva("\"Finalmente!\"")
+AgurdLimpe(2500)
+
+escreva("Ao olhar seu relógio")
+AgurdLimpe(3000)
+
+escreva("Lucas percebe que conseguiu voltar para o seu tempo atual")
+AgurdLimpe(4000)
+
+escreva("No exato dia em que saiu dali")
+AgurdLimpe(3500)
+
+escreva("Ainda é manhã")
+AgurdLimpe(2500)
+
+escreva("05:32")
+AgurdLimpe(2500)
+
+escreva("Estando no mesmo lugar de onde partiu")
+AgurdLimpe(3500)
+
+escreva("O rapaz vai para casa")
+AgurdLimpe(3000)
+
+escreva("Chegando lá, toma um banho quente e vai pegar algo para comer")
+AgurdLimpe(4500)
+
+escreva("Por sorte, ainda tinha uma deliciosa fatia de torta de frango na geladeira")
+AgurdLimpe(5000)
+
+escreva("O rapaz então a esquenta e vai para o sofá")
+AgurdLimpe(4000)
+
+escreva("Agora relaxado, pois conseguiu sobreviver a tudo aquilo")
+AgurdLimpe(4500)
+
+escreva("Ele pega o controle remoto e liga a TV")
+AgurdLimpe(3500)
+
+noticia()
+
+faca{escreva("Lucas deve agora concertas os erros temporais causados por ele?\n\n")
+escreva("[1] Sim\n")
+escreva("[2] Não\n\n")
+leia(loop)
+limpa()
+
+escolha(loop){
+
+			caso 1: escreva("Então ele coloca uma blusa para não ser reconhecido e parte para seu trabalho.")
+AgurdLimpe(5000)
+
+escreva("Determinado a encontrar Lucas do passado e avisar de seus futuros erros.")
+AgurdLimpe(5000)
+
+escreva("Lucas do futuro caminha depressa antes que seja tarde.")
+AgurdLimpe(4500)
+
+escreva("No caminho para seu trabalho, ele esbarra em um homem.")
+AgurdLimpe(5000)
+
+escreva("Mas, para não ter muita interação, ele segue reto, pois tem um propósito.")
+AgurdLimpe(5500)
+
+escreva("Quando chega ao seu escritório, se lembra que havia sido liberado mais cedo naquele dia.")
+AgurdLimpe(5500)
+
+escreva("Lucas do futuro se dá conta de que perdeu o relógio.")
+AgurdLimpe(5000)
+
+escreva("E que, na verdade, ele mesmo é quem entregou para sua versão do passado.")
+AgurdLimpe(5500)
+
+escreva("Agora não há nada que Lucas possa fazer, apenas viver sua vida a partir dali.")
+AgurdLimpe(6000)
+
+			pare
+			caso 2: escreva("\"Não!\"")
+AgurdLimpe(2500)
+
+escreva("\"O melhor que eu faço é não fazer nada\"")
+AgurdLimpe(3000)
+
+escreva("\"Vou apenas descansar\"")
+AgurdLimpe(3000)
+
+escreva("\"Eu mereço\"")
+AgurdLimpe(3500)
+
+			pare
+			caso contrario: escreva("Você chegou tão longe, não precisa desistir agora.")
+AgurdLimpe(5000)
+
+			pare
+		}
+    escreva("███████╗██╗███╗   ███╗    ██████╗ ███████╗         ██╗ ██████╗  ██████╗  ██████╗ \n")
+    escreva("██╔════╝██║████╗ ████║    ██╔══██╗██╔════╝         ██║██╔═══██╗██╔════╝ ██╔═══██╗\n")
+    escreva("█████╗  ██║██╔████╔██║    ██║  ██║█████╗           ██║██║   ██║██║  ███╗██║   ██║\n")
+    escreva("██╔══╝  ██║██║╚██╔╝██║    ██║  ██║██╔══╝      ██   ██║██║   ██║██║   ██║██║   ██║\n")
+    escreva("██║     ██║██║ ╚═╝ ██║    ██████╔╝███████╗    ╚█████╔╝╚██████╔╝╚██████╔╝╚██████╔╝\n")
+    escreva("╚═╝     ╚═╝╚═╝     ╚═╝    ╚═════╝ ╚══════╝     ╚════╝  ╚═════╝  ╚═════╝  ╚═════╝ \n")
+	
+	}enquanto(loop<1 ou loop>2)
+
+		}
+
+		funcao noticia(){
+			escreva("*ABERTURA DO JORNAL*")
+			AgurdLimpe(3500)
+		     escreva("Está começando o Jornal Portugol")
+		     AgurdLimpe(3000)
+		     escreva("E as ultimas noticias do mundo até o momento você confere aqui...")
+		     AgurdLimpe(3500)
+			se(trofeu==1){
+				escreva("O esqueleto do dinossauro mais conhecido no mundo por faltar um de seus dente é transportado para outro museu.")
+AgurdLimpe(4000)
+
+escreva("Paleontólogos acreditam que a falta de sua presa está ligada ao mundo animal.")
+AgurdLimpe(4500)
+
+escreva("\"Muitos dos dinossauros são carnívoros\"")
+AgurdLimpe(4500)
+
+escreva("\"E não seria estranho se um de seus dentes caísse na capitura de seu alimento\"")
+AgurdLimpe(5000)
+
+				
+			}
+			se(farao==4){
+				escreva("Foi descoberto hoje um desenho no chão de estruturas egípcias.")
+AgurdLimpe(4000)
+
+escreva("O desenho que mais se parece um relógio de bolso foi encontrado por Josh Smith.")
+AgurdLimpe(4500)
+
+escreva("Os profissionais na área apontam uma possível alucinação dos antigos com o objeto moderno.")
+AgurdLimpe(5000)
+
+			}
+			se(mudancaEgito==1){
+				escreva("Novo sucesso de bilheteira tem nome: A Vingança do Faraó.")
+AgurdLimpe(4500)
+
+escreva("O novo filme, com mais de 3 milhões de dólares em bilheteira, foi inspirado nas artes egípcias encontradas tempos atrás.")
+AgurdLimpe(5000)
+
+escreva("Diretor diz ser apaixonado pela história antiga e quis repassar essa para o mundo através da arte cinematográfica.")
+AgurdLimpe(5500)
+
+			}
+			se(mudancaEgito==2){
+				escreva("Novo sucesso de bilheteira tem nome: A Vingança dos Guardas Egípcios.")
+AgurdLimpe(4500)
+
+escreva("O novo filme, com mais de 3 milhões de dólares em bilheteira, foi inspirado nas artes egípcias encontradas tempos atrás.")
+AgurdLimpe(5000)
+
+escreva("Diretor diz ser apaixonado pela história antiga e quis repassar essa para o mundo através da arte cinematográfica.")
+AgurdLimpe(5500)
+
+			}
+			se(mudancaEgito==4){
+				escreva("Novo sucesso de bilheteira tem nome: O Sumiço do Faraó.")
+AgurdLimpe(4500)
+
+escreva("O novo filme, com mais de 3 milhões de dólares em bilheteira, foi inspirado nas artes egípcias encontradas tempos atrás.")
+AgurdLimpe(5000)
+
+escreva("Diretor diz ser apaixonado pela história antiga e quis repassar essa para o mundo através da arte cinematográfica.")
+AgurdLimpe(5500)
+
+escreva("O filme faz referência ao sumiço de um dos faraós mais importantes para a História.")
+AgurdLimpe(5500)
+
+			}
+			se(nordico==3){
+				escreva("Entrevista com Emillie Sindel")
+AgurdLimpe(4000)
+
+escreva("A mulher conhecida por seu \"artefato valioso\" visita o nosso estúdio para responder algumas perguntas.")
+AgurdLimpe(4500)
+
+escreva("Me responde, Sindel, como esse dente pode ser poderoso?")
+AgurdLimpe(5000)
+
+escreva("Olha, de geração a geração, esse dente foi passado com a história de que revive uma fera antiga.")
+AgurdLimpe(5500)
+               }
+			se(casa==2 ou cha==2){
+				escreva("A pintora renacentista Aurora Leal finalmente tem seus quadros reconhecidos.")
+AgurdLimpe(4500)
+
+escreva("As obras que trazem sempre um homem chamado Lucas como uma pessoa horrível")
+AgurdLimpe(5000)
+
+escreva("Puderam finalmente chegar ao Museu do Louvre.")
+AgurdLimpe(4500)
+               }
+			se(Salvador==1){
+				escreva("Após quase 5 anos da tragédia de Nova York.")
+AgurdLimpe(4500)
+
+escreva("Sobreviventes ainda relatam o trauma do massacre.")
+AgurdLimpe(5000)
+
+escreva("O assassino tem ligação com a embarcação que chegou nos Estados Unidos em 1912.")
+AgurdLimpe(5000)
+
+escreva("Familiares dele estavam presentes no maior navio da época, o Titanic.")
+AgurdLimpe(5500)
+
+			}
+			
+			}
+
+	
+	
+	funcao AgurdLimpe (inteiro tempo){
+	Util.aguarde(tempo)
+	limpa()
+	}
+	
+	
+
+	  funcao morte(){
+	    	se(vida==0){
+	    	     escreva("Infelizmente Lucas não sobreviveu")
+	    	     AgurdLimpe(3200)
+               escreva(" ██████╗  █████╗ ███╗   ███╗███████╗     ██████╗ ██╗   ██╗███████╗██████╗ \n")
+               escreva("██╔════╝ ██╔══██╗████╗ ████║██╔════╝    ██╔═══██╗██║   ██║██╔════╝██╔══██╗\n")
+               escreva("██║  ███╗███████║██╔████╔██║█████╗      ██║   ██║██║   ██║█████╗  ██████╔╝\n")
+               escreva("██║   ██║██╔══██║██║╚██╔╝██║██╔══╝      ██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗\n")
+               escreva("╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗    ╚██████╔╝ ╚████╔╝ ███████╗██║  ██║\n")
+               escreva(" ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝\n")
+	    	     retorne
+	     }
+	
+       }
+
+       funcao gameOver(){
+       	se(vida==0){
+       		
+		     faca{
+		        escreva("PRESSIONE ENTER PARA VER AS ESTATISTICAS. Se ouver...")
+		        leia(enter)
+		        limpa()
+		        se(enter!=""){
+			   limpa()
+			   escreva("Não é tão difícil, apenas clique no Enter")
+			   AgurdLimpe(4000)
+		        }
+		        senao{
+		        	se(farao==1 e fuga>1 ou farao==2 ou farao==3){
+		        		escreva("*ABERTURA DO JORNAL*")
+AgurdLimpe(3500)
+
+escreva("Está começando o Jornal Portugol")
+AgurdLimpe(3000)
+
+escreva("E as últimas notícias do mundo até o momento você confere aqui...")
+AgurdLimpe(3500)
+
+escreva("Na manhã de hoje, artefato histórico é roubado do museu do Cairo")
+AgurdLimpe(4000)
+
+escreva("O objeto ficou conhecido por ser algo moderno encontrado junto aos tesouros do Egito Antigo")
+AgurdLimpe(4500)
+
+escreva("A polícia investiga o roubo, mas nenhum suspeito até o momento")
+AgurdLimpe(4000)
+
+		        	}
+		        	se(nordico==2){
+		        		escreva("\"Não são tempos bons...\"")
+AgurdLimpe(3500)
+
+escreva("\"O mundo é governado por um viking supremo...\"")
+AgurdLimpe(4000)
+
+escreva("\"Capaz de fazer tudo aquilo que ele quer...\"")
+AgurdLimpe(4000)
+
+escreva("\"Todos devem obedecer o mestre...\"")
+AgurdLimpe(4000)
+
+escreva("\"E quem for contra ele...\"")
+AgurdLimpe(3500)
+
+escreva("\"EI! VOCÊ AÍ!\"")
+AgurdLimpe(3000)
+
+escreva("\"Não, por favor! NÃO! EU NÃO FIZ NADA! POR FAVOR!\"")
+AgurdLimpe(5000)
+
+		          }
+		          se(cha==1 ou enxerido==4){
+		          	escreva("Com Aurora tendo todo o poder em suas mãos")
+AgurdLimpe(4500)
+
+escreva("Ela distorceu cada vez mais o tempo")
+AgurdLimpe(4500)
+
+escreva("No começo foi sem querer")
+AgurdLimpe(4000)
+
+escreva("Mas agora... Não é possível nem saber onde tudo começou")
+AgurdLimpe(5000)
+
+escreva("Aurora acredita que alguma hora tudo vai desaparecer com seus erros")
+AgurdLimpe(5000)
+
+escreva("Que quanto mais ela ferrar com a linha do tempo")
+AgurdLimpe(4500)
+
+escreva("Mais rápido o tudo deixa de existir...")
+AgurdLimpe(5000)
+
+		          	}
+		          se(enxerido<3 e enxerido!=0){
+		          	escreva("Logo após a morte de Lucas")
+AgurdLimpe(4500)
+
+escreva("A embarcação naufraga no fundo do mar")
+AgurdLimpe(4500)
+
+escreva("O coitado não teve muita sorte")
+AgurdLimpe(4000)
+
+escreva("Mas será mesmo esse o melhor final?")
+AgurdLimpe(4500)
+
+escreva("Pois o causador dos problemas havia se perdido com o navio")
+AgurdLimpe(5000)
+
+escreva("O relógio provavelmente foi parar no fundo do mar")
+AgurdLimpe(5000)
+
+escreva("Não haveria mais conflitos na linha do tempo")
+AgurdLimpe(4500)
+
+escreva("Ou haveria?...")
+AgurdLimpe(5000)
+
+		          }
+		        	
+		        	
+		        	}
+		     }enquanto(enter!="")
+       	}
+       }
+
+       funcao Enter(){
+       	faca{   
+    escreva(" ██████╗     ██╗   ██╗██╗ █████╗      ██╗ █████╗ ███╗   ██╗████████╗███████╗    ██████╗  ██████╗     ████████╗███████╗███╗   ███╗██████╗  ██████╗\n")
+    escreva("██╔═══██╗    ██║   ██║██║██╔══██╗     ██║██╔══██╗████╗  ██║╚══██╔══╝██╔════╝    ██╔══██╗██╔═══██╗    ╚══██╔══╝██╔════╝████╗ ████║██╔══██╗██╔═══██╗\n")
+    escreva("██║   ██║    ██║   ██║██║███████║     ██║███████║██╔██╗ ██║   ██║   █████╗      ██║  ██║██║   ██║       ██║   █████╗  ██╔████╔██║██████╔╝██║   ██║\n")
+    escreva("██║   ██║    ╚██╗ ██╔╝██║██╔══██║██   ██║██╔══██║██║╚██╗██║   ██║   ██╔══╝      ██║  ██║██║   ██║       ██║   ██╔══╝  ██║╚██╔╝██║██╔═══╝ ██║   ██║\n")
+    escreva("╚██████╔╝     ╚████╔╝ ██║██║  ██║╚█████╔╝██║  ██║██║ ╚████║   ██║   ███████╗    ██████╔╝╚██████╔╝       ██║   ███████╗██║ ╚═╝ ██║██║     ╚██████╔╝\n")
+    escreva(" ╚═════╝       ╚═══╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝    ╚═════╝  ╚═════╝        ╚═╝   ╚══════╝╚═╝     ╚═╝╚═╝      ╚═════╝ \n")
+
+				
+       			
+		        escreva("PRESSIONE ENTER PARA COMEÇAR")
+		        leia(enter)
+		        limpa()
+		        se(enter!=""){
+			   limpa()
+			   escreva("Não é tão difícil, apenas clique no Enter")
+			   AgurdLimpe(4000)
+		        }
+       	
+          }enquanto(enter!="")
+       }
+
+       funcao Pular(){
+       	faca{
+       		
+       	 	leia(pular)
+		     limpa()
+		     	se(pular!=""){
+				limpa()
+				escreva("Não é tão difícil, apenas clique no Enter")
+				AgurdLimpe(4000)
+		        	}
+       	
+          }enquanto(pular!="")}
+       
+    }
